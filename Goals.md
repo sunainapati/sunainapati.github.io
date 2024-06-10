@@ -22,7 +22,7 @@ My learning goals are for next 1.5 months are:
 
 Somethings I want to read in future:
 - Definitely some topology book
-- Definitely some Algebraic number theory
+- Definitely some Algebraic number theory ( nuekirch?)
 - some complexity theory notes
 - Matrix and graphs by Bapat
 - Number fields by Daniel A Marcus
