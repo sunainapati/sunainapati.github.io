@@ -19,6 +19,7 @@ My learning goals are for next 1.5 months are:
 - Complete Metric Spaces by Mícheál Ó Searcóid
 - Complete Putnaam and Beyond by Titu Andresscu
 - Complete Algebra and Computation by Ramprasad Saptarishi
+- Complete Calculus course
 
 Somethings I want to read in future:
 - Definitely some topology book
