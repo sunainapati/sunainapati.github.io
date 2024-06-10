@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Hi! I am Sunaina Pati. I plan to blog about my struggling undergraduate days. I am currently pursuing mathematics and Theoretical CS at CMI. I have completed my first year at CMI. I want to learn higher math and theoretical computer science over the next 4 years. I plan to continue to pursue my master's at CMI. I plan to use this blog to update my progress in higher math and Computer science. I will also use it to update my life, progress, and struggles during my undergraduate studies. 
