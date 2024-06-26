@@ -22,7 +22,7 @@ If $p$ is a primes and $p\nmid a$, let $d$ be order of $a$ mod $p$. Then $a^n\eq
 </div>
 
 <div class='proof'>
-Let $n=pd+r, r<d$. Which implies $a^r\equiv 1\pmod p.$ But $d$ is the smallest natural number. So $r=0$. So $d|n$.
+Let $n=pd+r, r\ll d$. Which implies $a^r\equiv 1\pmod p.$ But $d$ is the smallest natural number. So $r=0$. So $d|n$.
 </div>
 
 <div class='example'>
@@ -50,7 +50,7 @@ Prove that every divisor of $2^p - 1$ is greater than $p$.
 Well, let's just try for every prime divisor. If we can show it for prime divisor then we are done!
 
 <div class='proof'>
-Let $q|2^p-1$. The $\text{ord}_q(2)=1\text{ or } p$. If $1$ then $q|1$, not possible. So $\text{ord}_q(2)=p\implies p|q-1\implies p<q-1<q .$
+Let $q|2^p-1$. The $\text{ord}_q(2)=1\text{ or } p$. If $1$ then $q|1$, not possible. So $\text{ord}_q(2)=p\implies p|q-1\implies p\ll q-1\ll q  .$
 </div>
 
 <div class='example'>
@@ -97,10 +97,10 @@ Then $g^{j-1}\equiv 1\pmod p$ and $j-1\le p-1$. Not possible unless $j=i$.
 <div class='theorem'>
 Given a prime $p$, then $$(p - 1)! \equiv -1 \pmod p.$$
 </div>
-\begin{theorem}
+
 
 <div class='proof'>
-Note that $$(p-1)!\equiv (p-1)(p-2)\dots 1 \equiv g^1\dot g^2\dot \dots g^{p-1}$$ $$g^{\frac{{p(p-1)}{2}}}\pmod p$$ $$(-1)^p\equiv -1 \pmod p$$
+Note that $$(p-1)!\equiv (p-1)(p-2)\dots 1 \equiv g^1\dot g^2 \dots g^{p-1}$$ $$g^{\frac{p(p-1)}{2}}\pmod p$$ $$(-1)^p\equiv -1 \pmod p$$
 </div>
 
 <div class='remark'>
@@ -140,17 +140,16 @@ We begin with something called $v_p$. It is the p-adic evaluation of a number mo
 </div>
 
 Note the general properties:
-\begin{itemize}
-    \item $v_p(xy)=v_p(x)+v_p(y)$
-    \item $v_p(x+y)\ge \min( v_p(x),v_p(y))$. If $v_p(x)\ne v_p(y)$ then equality holds.
-\end{itemize}
+
+* $v_p(xy)=v_p(x)+v_p(y)$
+* $v_p(x+y)\ge \min( v_p(x),v_p(y))$. If $v_p(x)\ne v_p(y)$ then equality holds.
+
 
 <div class='theorem'>
 $$v_p(a^n-b^n)=v_p(n)+v(a-b)$$ if 
-\begin{itemize}
-    \item $p|a-b, p\ne 2$ an odd prime
-    \item $p\nmid a,b$
-\end{itemize}
+* $p|a-b, p\ne 2$ an odd prime
+* $p\nmid a,b$
+
 </div>
 <div class='proof'>
 
@@ -193,10 +192,11 @@ Thus we have $n=2^e m^2$ for some non-negative integer $e$ and odd positive inte
 From this we get$$(2^{e+1}-1)(\sigma(m^2)-m^2)=m^2+1.$$If $e>0$, then $2^{e+1}-1\equiv 3\pmod{4}$, so $2^{e+1}-1$ has at least one prime divisor $p$ that is $3\pmod{4}$. By Fermat's Christmas Theorem, this is a contradiction, since $p\mid m^2+1$. Thus $e=0$, and $n=m^2$.
 </div>
 
-<div class='problem' text=IMO 1990/3'>
+<div class='problem' text='IMO 1990/3'>
 Determine all integers $ n > 1$ such that
 $$\frac {2^n + 1}{n^2}$$ is an integer.
 </div>
+                                     
 <div class='proof' text= 'Shreyasharma at Aops'>
 First note that all even $n$ fail, and $n = 1$ can be checked to work. Now we wish to determine all $n$ such that $2^n \equiv -1 \pmod{n^2}$. Take the smallest prime $p \mid n$. Then we require,
 \begin{align*}
@@ -223,7 +223,7 @@ First if $\text{ord}_p(2) = 1$ we require,
 Then our final solution set is $\boxed{n = 1 \text{ and } n = 3}$.
 </div>
 
-<div class='problem' text=Romanian TST 1996'>
+<div class='problem' text='Romanian TST 1996'>
 Find all primes $ p,q $ such that $ \alpha^{3pq} -\alpha \equiv 0 \pmod {3pq} $ for all integers $ \alpha $.    
 </div>
 <div class='proof' text='by th1nq3r at AoPS'>
@@ -237,7 +237,8 @@ Let $3q - 1 = x(p - 1), 3p - 1 = y(q - 1)$, for some $x, y \in \mathbb N$. Now n
 <div class='problem' text='USATST 2008'>
 Prove that for no integer $ n$ is $ n^7 + 7$ a perfect square.
 </div>
-<div class'proof' text=by Shreyasharma at AoPS'>
+<div class='proof' text='by Shreyasharma at AoPS'>
+                                                
 Note that it is easy to see $n \leq 0$ fail. Now take $n \geq 1$ and assume,$$n^7 + 7 = a^2$$for some square $a$. Now as perfect squares are $0$ and $1$ modulo $4$ we can easily show that $n \equiv 1 \pmod{4}$.
   
 Then adding $121$ to both sides we wish to find solutions to$$n^7 + 2^7 = a^2 + 11^2$$Now we factor the left hand side to find$$(n+2)(\dots) = a^2 + 11^2$$and hence there exists some prime congruent to $3$ modulo $4$ dividing the right hand side. Hence there exists some prime $p$ dividing $a^2 + 11^2$. Now by Fermat's Christmas Theorem we must have $p \mid \gcd(a^2,11^2)$. However this implies that $\gcd(a^2, 11^2) > 1$ and namely $p = 11$. Then we have$$n^7 + 2^7 = 11^2(b^2 + 1)$$
