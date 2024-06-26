@@ -155,13 +155,13 @@ $$v_p(a^n-b^n)=v_p(n)+v(a-b)$$ if
 <div class='proof'>
 
 We use induction on $v_p(n).$ [ We show for $v_p(n)=0, v_p(n)=1$ and then use induction.
-\newline
+
 1. We show it for $v_p(n)=0.$ That is show $v_p(x^n-y^n)=v_p(x-y)$
 To show this is true, $$v_p(\frac{x^n-y^n}{x-y})=v_p(x^{n-1}+yx^{n-2}+y^2x^{n-3}+\dots+y^{n-1})=0.$$
 As $x\equiv y\pmod p.$
 So,  $$x^{n-1}+yx^{n-2}+y^2x^{n-3}+\dots+y^{n-1}\equiv nx^{n-1}\pmod p. $$
 And $p\not\mid nx^{n-1}$
-\newline
+
 2. We show it for $v_p(n)=1.$ That is show $v_p(x^n-y^n)=v_p(x-y)+1$
 To show this is true, $$v_p(\frac{x^n-y^n}{x-y})=v_p(x^{n-1}+yx^{n-2}+y^2x^{n-3}+\dots+y^{n-1})=1.$$
 As $x\equiv y\pmod p\implies x=y+pk$
@@ -172,7 +172,7 @@ $$\equiv n\cdot y^{n-1}+pky^{n-2}\frac{(n-1)(n)}{2} \pmod {p^2}$$
 Since $(n,p^2)=p.$ Let $n'=n/p.$
 $$\equiv n'\cdot y+k\frac{(n-1)(n)}{2} \pmod {p}$$
 but $p\not \mid n'\cdot y+k\frac{(n-1)(n)}{2}$
-\newline
+
 3. Let's assume it's true for $v_p=0,1,\dots, j-1.$ Now, we will show it's true for $v_p(n)=j.$
 Then let $n=p^j\cdot c.$
 Then $$v_p(x^n-y^n)=v_p(x^{p^j\cdot c}-y^{p^j\cdot c})=v_p((x^{p})^{p^{j-1}\cdot c}-(y^{p})^{p^{j-1}\cdot c})$$
