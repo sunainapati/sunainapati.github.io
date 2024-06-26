@@ -184,7 +184,7 @@ $$=v_p(x^p-y^p)+v_p(p^{j-1}\cdot c)=v_p(x-y)+1+j-1=v_p(x-y)+v_p(n)$$
 <div class='problem' text='putnam 1976 B6'>
 As usual, let $\sigma (N)$ denote the sum of all the (positive integral) divisors of $N.$ (Included among these divisors are $1$ and $N$ itself.) For example, if $p$ is a prime, then $\sigma (p)=p+1.$ Motivated by the notion of a "perfect" number, a positive integer $N$ is called "quasiperfect" if $\sigma (N) =2N+1.$ Prove that every quasiperfect number is the square of an odd integer.
 </div>
-<div class='proof' text='by metricpaper at AoPS'>
+<div class='proof' text='proof by metricpaper at AoPS'>
 Let $n=p_1^{e_1}\dots p_k^{e_k}$ be the prime factorization of $n$. Then we have$$\sigma(n)=\prod_{i=1}^k (1+p_i+p_i^2+\dots+p_i^{e_i}),$$so for any odd prime $p_j$, if $e_j$ is odd, then $(1+p_j+\dots+p_j^{e_j})$ is even, contradiction since $\sigma(n)$ is odd.
 
 Thus we have $n=2^e m^2$ for some non-negative integer $e$ and odd positive integer $m$. Now$$\sigma(n)=(2^{e+1}-1)\sigma(m^2)=2^{e+1}m^2+1.$$
@@ -197,7 +197,7 @@ Determine all integers $ n > 1$ such that
 $$\frac {2^n + 1}{n^2}$$ is an integer.
 </div>
                                      
-<div class='proof' text= 'Shreyasharma at Aops'>
+<div class='proof' text= 'proof by Shreyasharma at Aops'>
 First note that all even $n$ fail, and $n = 1$ can be checked to work. Now we wish to determine all $n$ such that $2^n \equiv -1 \pmod{n^2}$. Take the smallest prime $p \mid n$. Then we require,
 \begin{align*}
 2^{2n} \equiv 1 \pmod{p}
@@ -226,7 +226,7 @@ Then our final solution set is $\boxed{n = 1 \text{ and } n = 3}$.
 <div class='problem' text='Romanian TST 1996'>
 Find all primes $ p,q $ such that $ \alpha^{3pq} -\alpha \equiv 0 \pmod {3pq} $ for all integers $ \alpha $.    
 </div>
-<div class='proof' text='by th1nq3r at AoPS'>
+<div class='proof' text='proof by th1nq3r at AoPS'>
 First notice how $3, p, q$ are distinct. Assume $p = q$. Then $n^{3p^2} \equiv n \pmod{p^2}, \forall n \in \mathbb{Z^+}$. However if $n = p$, then we have that $p^{3p^2} \equiv p \pmod{p^2} \implies p^{3p^2 - 1} \equiv 1 \pmod{\frac{p^2}{\operatorname{gcd}(p, p^2)}} \implies 0 \equiv 1 \pmod p$, which is nonsense.
 
 Now let $g_1, g_2$ be primitive roots modulo $p, q$ respectively. Then $g_1^{3qp} \equiv g_1 \pmod p \implies p - 1 \mid 3pq - 1$. Similarly $q -1 \mid 3pq - 1$. Thus we have that $p - 1 \mid 3q - 1$ and $q - 1 \mid 3p - 1$.
@@ -237,7 +237,7 @@ Let $3q - 1 = x(p - 1), 3p - 1 = y(q - 1)$, for some $x, y \in \mathbb N$. Now n
 <div class='problem' text='USATST 2008'>
 Prove that for no integer $ n$ is $ n^7 + 7$ a perfect square.
 </div>
-<div class='proof' text='by Shreyasharma at AoPS'>
+<div class='proof' text='proof by Shreyasharma at AoPS'>
                                                 
 Note that it is easy to see $n \leq 0$ fail. Now take $n \geq 1$ and assume,$$n^7 + 7 = a^2$$for some square $a$. Now as perfect squares are $0$ and $1$ modulo $4$ we can easily show that $n \equiv 1 \pmod{4}$.
   
