@@ -2,6 +2,7 @@
 layout: post
 _title: Orders and Primitive roots
 ---
+
 # Theory
 We know what **Fermat's little theorem** states.
 <div class='theorem' text='Fermats Little Theorem'>
