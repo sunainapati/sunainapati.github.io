@@ -2,13 +2,13 @@
 layout: page
 title: Goals
 ---
-%My general goals for the next two semesters are:
-%- Achieve perfect 10s in all courses I take
-%- Achieve top quartile in SMMC
-%- Achieve a top prize at the Madhava competition
-%- Get into IMSC's summer program for TCS students
-%- Get into TIFR's Vidyan Vidushi for CS students
-%- Get into TIFR's Vidyan Vidushi for math students students
+My general goals for the next two semesters are:
+- Achieve perfect 10s in all courses I take
+- Achieve top quartile in SMMC
+- Achieve a top prize at the Madhava competition
+- Get into IMSC's summer program for TCS students
+- Get into TIFR's Vidyan Vidushi for CS students
+- Get into TIFR's Vidyan Vidushi for math students students
 
 My learning goals are for next 1.5 months are:
 - Complete Lie algebra by Karin Erdmann and Mark J. Wildon
