@@ -97,7 +97,7 @@ Note that $\overline{x}$ is nilpotent as $\overline{x}=x+W$ and $$(\overline{x})
 
 So, we apply induction hypothesis to $V/W$. We get a basis $\overline{B}=\{v_1+W,\dots,v_{k}+W\} $. Note that $\overline{x}(v_j+W)=\alpha_1v_+\dots+\alpha_{j-1}v_{j-1}+W$. Take the basis $B=\{w,v_1,\dots,v_k\}$. We get $x(v_j)=\alpha_0w+\dots+\alpha_{j-1}v_{j-1}$. And done! It satisfies the Upper triangular matrix!
 </div>
-\newpage
+
 <div class='theorem'>
 Let $V$ be a vector space. Suppose that $L$ is a Lie subalgebra of $\text{gl}(V )$ such
 that every element of $L$ is a nilpotent linear transformation of $V$ . Then there is a basis of $V$ in which every element of $L$ is represented by a strictly upper triangular matrix. 
