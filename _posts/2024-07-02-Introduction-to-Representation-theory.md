@@ -11,7 +11,7 @@ Let $L$ be a Lie algebra and let $V$ and $W$ be $L-$modules. An $L-$module homom
 that $\theta(x \cdot v) = x \cdot {\theta(v)}$ for all $v \in V$ and $x \in L$.
 </div>
 An isomorphism is a bijective $L-$module homomorphism.
-<div class'remark'>
+<div class='remark'>
  This makes sense because $x\cdot v\in V$ and $\theta v\in W$. So $x\cdot \theta (v)$ is also in $W$. And it is using that it is $L-$module.
 </div>
 
