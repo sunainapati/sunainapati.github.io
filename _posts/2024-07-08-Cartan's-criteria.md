@@ -2,6 +2,7 @@
 layout: post
 _title: Cartan's criteria for solvability and semi-simplicity and more on semi-simple lie algebra
 ---
+Hi! Another lie algebra post. 
 # Cartan's criteria for solvability
 <div class='theorem'>
  Suppose $L$ is a complex solvable lie algebra. Then $L$ is solvable iff $\forall x,y,z\in L,k([x,y],z)=0$
@@ -23,7 +24,7 @@ _title: Cartan's criteria for solvability and semi-simplicity and more on semi-s
  If $I$ is ideal of $L$ then $I^{\perp}$ is ideal of $L$.
 </div>
 <div class='proof'>
- Let $x\L$ and $j\in I^{\perp}$. We want to show $[j,x]\in I^{\perp}$. We want to show $$tr(ad_{[j,x]}\cdot ad_i)=0 \forall i\in I.$$
+ Let $x\in L$ and $j\in I^{\perp}$. We want to show $[j,x]\in I^{\perp}$. We want to show $$tr(ad_{[j,x]}\cdot ad_i)=0 \forall i\in I.$$
  But we know that $$tr([a,b]c)=tr(a[b,c]).$$ So $$tr(ad_{[j,x]}\cdot ad_i)=tr(ad_j\cdot ad_{[x,i]})\text{  but } [x,i]\in I\implies tr(ad_j\cdot ad_{[x,i]})=0.$$
 </div>
 <div class='theorem'>
