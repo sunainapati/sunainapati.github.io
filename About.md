@@ -14,3 +14,5 @@ A little about me:
 - My MBTI type is INTJ-T 
 - I love taking notes, organizing, being in pressure and learning a lot of new things.
 - These days I love biology and read it whenever I have free time.
+
+And my CV for the curious ones! 
