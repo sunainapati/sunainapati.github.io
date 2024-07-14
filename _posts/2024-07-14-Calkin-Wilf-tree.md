@@ -31,6 +31,7 @@ g(n)=
 Great! So we know how to create a bijection between $\Bbb{N}\rightarrow\Bbb{Q}$ if we are given the bijection between $\Bbb{N}\rightarrow+\Bbb{Q}$. But how can we create the bijection between $\Bbb{N}\rightarrow+\Bbb{Q}$? We use the Cute tree!
 # Cute tree
 Every node of this binary tree is assigned a positive fraction.And the starting node is $\frac{1}{1}$. If the positive fraction is $\frac{p}{q}$, then we define it's left child as $\frac{p}{p+q}$ and the right child as $\frac{p+q}{q}$. We call the fraction $\frac{p}{q}$ as the parent of $\frac{p}{p+q}$ and $\frac{p+q}{q}$.
+
 \begin{center}
 \includegraphics[scale=0.6]{Screenshot 2023-06-11 111320.png}
 \end{center}
