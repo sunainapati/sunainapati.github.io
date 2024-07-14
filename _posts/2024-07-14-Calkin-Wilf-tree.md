@@ -32,9 +32,8 @@ Great! So we know how to create a bijection between $\Bbb{N}\rightarrow\Bbb{Q}$ 
 # Cute tree
 Every node of this binary tree is assigned a positive fraction.And the starting node is $\frac{1}{1}$. If the positive fraction is $\frac{p}{q}$, then we define it's left child as $\frac{p}{p+q}$ and the right child as $\frac{p+q}{q}$. We call the fraction $\frac{p}{q}$ as the parent of $\frac{p}{p+q}$ and $\frac{p+q}{q}$.
 
-\begin{center}
-\includegraphics[scale=0.6]{Screenshot 2023-06-11 111320.png}
-\end{center}
+![image](http://sunainapati.github.io/assets/Screenshot 2023-06-11 111320.png)
+
 ## Introduction
 In general, if we have the fraction as $x$, then note that it's left child is $\frac{x}{x+1}$ and the right child is $x+1$. However, before proceeding, we shall prove this. 
 <div class="claim">
@@ -47,9 +46,10 @@ And by definition, $$\text{ the left child is }\frac{p}{p+q}=\frac{1}{\left(\fra
 
 ## Infinite cute tree
 We start with $\frac{1}{1}$ and proceed to make the left child and right child. Note that this process is infinite and hence the name. 
-\begin{center}
-    \includegraphics[scale=0.5]{Screenshot 2023-06-11 110715.png}
-\end{center}
+
+![image](http://sunainapati.github.io/assets/Screenshot 2023-06-11 110715.png)
+
+
 $$\vdots$$
 <div class="definition">
     Define the $1$st row has $1/1$. The second row has childs of $1/1$. The $n+1$st row is the row which has childs of $n$th row fractions.
@@ -69,9 +69,9 @@ $$f(3)\rightarrow \frac{2}{1}$$
 $$f(4)\rightarrow \frac{1}{3}$$
 $$f(5)\rightarrow \frac{3}{2}$$
 $$\vdots$$
-\begin{center}
-    \includegraphics[scale=0.5]{Screenshot 2023-06-11 232908.png}
-\end{center}
+
+![image](http://sunainapati.github.io/assets/Screenshot 2023-06-11 232908.png)
+
 <div class="claim">
 All the fractions in the infite cute tree are in reduced form.
 </div>
@@ -185,9 +185,9 @@ Remember our Cool sequence algorithm? We will do the same thing, except now we w
 For example, we know that $13/47$ is leftchild of $13/34$ and so on. So we get 
 $$\frac{13}{47}\overset{\text{L}}{\rightarrow} \frac{13}{34}\overset{\text{L}}{\rightarrow} \frac{13}{21}\overset{\text{L}}{\rightarrow}\frac{13}{8} \overset{\text{R}}{\rightarrow}\frac{5}{8}\overset{\text{L}}{\rightarrow}\frac{5}{3}\overset{\text{R}}{\rightarrow}\frac{2}{3}\overset{\text{L}}{\rightarrow}\frac{2}{1}\overset{\text{R}}{\rightarrow}\frac{1}{1}. $$
 We define a new function, $g(n)$ which is basically the same as $f(n)$ but we define $g(n)$ as the following.
-\begin{center}
-    \includegraphics[scale=0.5]{Screenshot 2023-06-11 235229.png}
-\end{center}
+
+![image](http://sunainapati.github.io/assets/Screenshot 2023-06-11 235229.png)
+
 Note that $$f(n)=g(2^{\log_2(n)}+2^{\log_2(n)+1}-1-n).$$
 Note that if the number $g(n)$ is the parent, then its right child is $g(2n)$ and the left child is $g(2n+1)$. Now consider Now, consider the binary representation of $n,2n$ and $2n+1$. If the $n=(a_1a_2\dots a_k)_2$ then note that $2n=(a_1\dots a_k0)_2$ and $2n+1=(a_1\dots a_k1)_2$. 
 
@@ -196,7 +196,7 @@ So we add $1$ at the end of the binary reprsentation whenever we go to the left 
 Hence, for the above example, we start with $1/1$. Since $2/1$ is right child, we add $1$ to binary expression. Hence $(11)_2$. And we proceed like this. 
 
 We get that $$13/47=g((110101000)_2)=g(424)=f(512+256-1-424)=f(343).$$
-Note that, using our \textbf{claim $2.2$} and \textbf{binary preimage}, we get that there is a bijection between naturals and positive rationals. And hence by our discussion in \textbf{section 1.2}, we get that there is a bijection between naturals and rational numbers. Hence, rationals are countable. 
+Note that, using our results above, we get that there is a bijection between naturals and positive rationals. And hence by our discussion, we get that there is a bijection between naturals and rational numbers. Hence, rationals are countable. 
 
 ## Connection with Euclidean algorithm
 We consider $13/47$ as the example. Recall, we had $$\frac{13}{47}\overset{\text{L}}{\rightarrow} \frac{13}{34}\overset{\text{L}}{\rightarrow} \frac{13}{21}\overset{\text{L}}{\rightarrow}\frac{13}{8} \overset{\text{R}}{\rightarrow}\frac{5}{8}\overset{\text{L}}{\rightarrow}\frac{5}{3}\overset{\text{R}}{\rightarrow}\frac{2}{3}\overset{\text{L}}{\rightarrow}\frac{2}{1}\overset{\text{R}}{\rightarrow}\frac{1}{1}. $$
