@@ -2,7 +2,7 @@
 layout: post
 _title: Calkin Wilf tree
 ---
-Hi, today we will discuss about Calkin-Wilf tree.
+Hi, today we will discuss about Calkin-Wilf tree. I gave this talk at CMI STEMS final camp 2024. 
 
 # Definitions
 Before proceeding, we must be clear about what our title means. 
