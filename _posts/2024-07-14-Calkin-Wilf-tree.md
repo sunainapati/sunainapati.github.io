@@ -1,8 +1,6 @@
 ---
 layout: post
 _title: Calkin Wilf tree
-categories: [machine learning]
-tags: ['lenet', 'machine learning', 'Mathematica', 'neural networks']
 ---
 
 Hi, today we will discuss about Calkin-Wilf tree. I gave this talk at CMI STEMS final camp 2024. 
