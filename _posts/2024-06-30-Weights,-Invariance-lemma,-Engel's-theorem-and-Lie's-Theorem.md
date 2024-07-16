@@ -4,6 +4,13 @@ _title: Weights, Invariance lemma, Engel's theorem and Lie's theorem
 ---
 
 We are dealing with lie algebras
+
+# Contents
+{:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
+
 # Weights
 <div class='definition'>
 A weight for a lie subalgebra $A$ of $\text{gl(V)}$ is a linear map $\lambda:A\rightarrow F$ such that $$V_{\lambda}=\{v\in V: a(v)=\lambda(a)v\forall a\in A\}$$
