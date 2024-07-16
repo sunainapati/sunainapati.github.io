@@ -5,6 +5,13 @@ _title: Orders and Primitive roots
 
 This is the notes for the class I took.
 
+# Contents
+{:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
+
+
 # Theory
 We know what **Fermat's little theorem** states.
 <div class='theorem' text='Fermats Little Theorem'>
