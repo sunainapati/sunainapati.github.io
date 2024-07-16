@@ -3,6 +3,12 @@ layout: post
 _title: Cartan's criteria for solvability and semi-simplicity and more on semi-simple lie algebra
 ---
 Hi! Another lie algebra post. 
+# Contents
+{:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
+
 # Cartan's criteria for solvability
 <div class='theorem'>
  Suppose $L$ is a complex solvable lie algebra. Then $L$ is solvable iff $\forall x,y,z\in L,k([x,y],z)=0$
