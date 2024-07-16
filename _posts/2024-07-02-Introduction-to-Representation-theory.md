@@ -5,6 +5,12 @@ _title: Introduction to Representation theory
 
 We are dealing with lie algebras.
 
+# Contents
+{:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
+
 # Homorphism theorems
 <div class='definition'>
 Let $L$ be a Lie algebra and let $V$ and $W$ be $L-$modules. An $L-$module homomorphism or Lie homomorphism from $V$ to $W$ is a linear map $\theta : V \rightarrow W$ such
