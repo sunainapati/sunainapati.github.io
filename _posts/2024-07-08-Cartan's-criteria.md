@@ -1,7 +1,7 @@
 ---
 layout: post
 _title: Cartan's criteria for solvability and semi-simplicity and more on semi-simple lie algebra
-tags : Lie algebra
+tags : Lie-algebra
 ---
 Hi! Another lie algebra post. 
 # Contents
