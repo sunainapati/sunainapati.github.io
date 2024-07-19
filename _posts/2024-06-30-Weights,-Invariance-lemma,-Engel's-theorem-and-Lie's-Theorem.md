@@ -1,7 +1,7 @@
 ---
 layout: post
 _title: Weights, Invariance lemma, Engel's theorem and Lie's theorem
-tags : Lie algebra
+tags : Lie-algebra
 ---
 
 We are dealing with lie algebras
