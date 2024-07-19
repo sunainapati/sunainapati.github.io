@@ -1,6 +1,7 @@
 ---
 layout: post
 _title: Orders and Primitive roots
+tags : ["Olympiad Number-theory"]
 ---
 
 This is the notes for the class I took.
