@@ -1,6 +1,7 @@
 ---
 layout: post
 _title: Gaussian Integers, Eisenstein Integers and lattices
+tags: ["animals", "Chicago", "zoos"]
 ---
 
 <div class='theorem'>
