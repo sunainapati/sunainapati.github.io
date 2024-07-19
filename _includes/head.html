@@ -12,6 +12,9 @@
   {%- endif -%}
   {%- include mjx.html -%}
   {%- include showhide.html -%}
+  {% if site.tags != "" %}
+  {% include collecttags.html %}
+  {% endif %}
 
   <!-- highlight.js support -->
   <link rel="stylesheet" href="/js/highlightjs/styles/github.css">
