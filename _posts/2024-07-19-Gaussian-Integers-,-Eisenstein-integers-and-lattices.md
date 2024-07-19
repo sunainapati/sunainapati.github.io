@@ -1,7 +1,7 @@
 ---
 layout: post
 _title: Gaussian Integers, Eisenstein Integers and lattices
-tags: ["Number-theory","Abstract-algebra"]
+tags: Number-theory Abstract-algebra
 ---
 
 <div class='theorem'>
