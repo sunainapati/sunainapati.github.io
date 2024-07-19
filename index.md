@@ -1,1 +1,1 @@
-Hi! I am Sunaina Pati. I plan to blog about my struggling undergraduate days. Here are my blog posts! They are mostly math or theoretical CS-based. 
+Hi! I am Sunaina Pati. I plan to blog about my struggling undergraduate days. Here are my blog posts! They are mostly math or theoretical CS-based. If you want to go to specific area-wise posts, please check out the blog archive page! 
