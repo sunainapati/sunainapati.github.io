@@ -1,7 +1,7 @@
 ---
 layout: post
 _title: EGMOTC 2023 Elementary Geometry 
-tags : ["Olympiad Geometry"]
+tags : Olympiad Geometry
 ---
 
 Firstly, welcome to European Girls' Mathematical Olympiad Training camp 2023!I am so happy for all of you and very excited to teach all of you. 
