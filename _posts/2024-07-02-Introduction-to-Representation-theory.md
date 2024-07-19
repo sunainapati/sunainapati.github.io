@@ -1,6 +1,7 @@
 ---
 layout: post
 _title: Introduction to Representation theory
+tags : ["lie algebra"]
 ---
 
 We are dealing with lie algebras.
