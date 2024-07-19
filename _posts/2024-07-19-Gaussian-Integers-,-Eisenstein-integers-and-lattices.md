@@ -1,7 +1,7 @@
 ---
 layout: post
-_title: Gaussian Inteegers, Eisenstein Integers and lattices
-tags: ["animals", "Chicago", "zoos"]
+_title: Gaussian Integers, Eisenstein Integers and lattices
+tags: ["number-theory","Abstract-algebra"]
 ---
 
 <div class='theorem'>
