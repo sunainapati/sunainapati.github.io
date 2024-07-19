@@ -1,6 +1,7 @@
 ---
 layout: post
 _title: Calkin Wilf tree
+tags : ["seminar"]
 ---
 
 Hi, today we will discuss about Calkin-Wilf tree. I gave this talk at CMI STEMS final camp 2024. 
