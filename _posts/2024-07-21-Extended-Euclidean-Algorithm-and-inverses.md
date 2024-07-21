@@ -28,15 +28,3 @@ $$\bigg(\frac{2}{5} x + \frac{1}{5}\bigg)\bigg(x^{3} - x + 1\bigg) + \bigg(-\fra
 So inverse of $x^2+1$ is $$-\frac{2}{5} x^{2} - \frac{1}{5} x + \frac{4}{5}.$$
 
 Alternatively, I liked [this explanation](https://math.stackexchange.com/posts/2959891) in StackExchange! 
-
-$\begin{eqnarray}
-[\![1]\!]&&  &&f = x^3\!+2x+1 &\!\!=&\, \left<\,\color{#c00}1,\,\color{#0a0}0\,\right>\quad\ \ \, {\rm i.e.}\ \qquad\!\:\! f\, =\ \color{#c00}1\cdot f\, +\, \color{#0a0}0\cdot g\\
-[\![2]\!]&&  &&\qquad\ \,  g =x^2\!+1 &\!\!=&\, \left<\,\color{#c00}0,\,\color{#0a0}1\,\right>\quad\ \ \,{\rm i.e.}\ \qquad g\, =\ \color{#c00}0\cdot f\, +\, \color{#0a0}1\cdot g\\
-[\![3]\!]&=&[\![1]\!]-x[\![2]\!]\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! &&\qquad\qquad\ \ x+1 \,&\!\!=&\, \left<\,\color{#c00}1,\,\color{#0a0}{-x}\,\right>\ \ \ \:\!{\rm i.e.}\quad\! x\!+\!1\, =\, \color{#c00}1\cdot f\,\color{#0c0}{-\,x}\cdot g\\
-[\![4]\!]&=&[\![2]\!]+(1\!-\!x)[\![3]\!]\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! &&\qquad\qquad\qquad\ 2 \,&\!\!=&\, \left<\,\color{#c00}{1\!-\!x},\,\ \color{#0a0}{1\!-\!x+x^2}\,\right>\\
-\end{eqnarray}$
-
-Hence the prior line implies: $\ \ 2\  =\  (\color{#c00}{1\!-\!x})f + (\color{#0a0}{1\!-\!x\!+\!x^2})g $
-
-Thus in $\,\Bbb Z_3[x] \bmod f\!:\,\  {-}1\equiv 2 \equiv (\color{#0a0}{1\!-\!x\!+\!x^2})g\ \Rightarrow\ \bbox[6px,border:1px solid red]{g^{-1}\equiv\, {-}(\color{#0a0}{1\!-\!x\!+\!x^2})}$  
-
