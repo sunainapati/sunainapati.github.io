@@ -1,7 +1,7 @@
 ---
 layout: post
 _title: Eisenstein Criterion for irreducibility
-tags : Number-theory Abstract-algebra
+tags : Number-theory Abstract-algebra Olympiad-Number-theory
 ---
 
 Hi, today we will discuss the Eisenstein Criterion for the irreducibility of polynomials in fields. This is something I have seen in olympaids a lot! 
