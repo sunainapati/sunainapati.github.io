@@ -4,7 +4,7 @@ _title: $\text{ ED}\implies \text{PID}\iff \text{ UFD}$
 tags : Number-theory Abstract-algebra Revision
 ---
 
-Hi, today we will discuss some lemmas I felt are often used in Ring theory till now. I have also uploaded my notes made till now [here](https://sunainapati.github.io/RFTnotes1.pdf). This is a revision post. Please refer my notes for detailed explainations.
+Hi, today we will discuss some lemmas I felt are often used in Ring theory till now. I have also uploaded my notes made till now [here](https://sunainapati.github.io/RFTnotes1.pdf). This is a revision post. Please refer to my notes for detailed explanations.
 
 # Contents
 {:.no_toc}
@@ -24,7 +24,7 @@ Every finite integral domain is a field
  Since it is an ID, it is a commutative ring and unital. To show it is a field, we need to show every element has a multiplicative inverse. We use the same "FLT" trick. Let $a_1,\dots,a_n$ be the element of the ID. Say we want to show $a$ has an inverse. Consider $\{aa_1,\dots, aa_n\}$. Note that each element in the new set is distinct if not then $aa_i=aa_j\implies a(a_i-a_j)=0$ but that is not possible as ID. So done. 
 </div>
 
-- Note that we can embed any integral domain and make it a field. We can do it by making a structure called **fractions fields**. We denote it by $Q(D)$, where $D$ is the integral domain. It is defined by $Q(D)=\{a/b| (a,b)\in D\times D\{0}\}$. It is the smallest field containing $D$ injectively.
+- Note that we can embed any integral domain and make it a field. We can do it by making a structure called **fractions fields**. We denote it by $Q(D)$, where $D$ is the integral domain. It is defined by $Q(D)=\{a/b\text{ such that} (a,b)\in D\times D\{0}\}$. It is the smallest field containing $D$ injectively.
 
 - Note that if $D$ is an Euclidean domain, then $D$ is a PID. ( Euclidean algorithm essentially)
 
@@ -64,7 +64,7 @@ We know a field has only two ideals. So simply show $A/I$ has two ideals.
 - So we get that, if $A$ is a PID, then $$a \text{ is irreducible} \iff \langle a\rangle \text{ is a maximal ideal } \iff A/I \text{ is a field}.$$
 
 <div class="remark">
-So if $\alpha$ is algebraic over $F$ then $$F[x]/ker\phi_{\alpha}\cong F[\alpha]$ is a field. 
+So if $\alpha$ is algebraic over $F$ then $$F[x]/ker\phi_{\alpha}\cong F[\alpha]$$ is a field. 
 </div>
 
 # Noetherian rings 
@@ -74,7 +74,7 @@ A ring is called Noetherian if there is no ascending infinite sequence of ideals
 </div>
 
 <div class="lemma"> 
-Suppose $A$ is a unital commutative ring. Then $A$ is noetherian iff aal the ideals are finitely generated.
+Suppose $A$ is a unital commutative ring. Then $A$ is noetherian iff all the ideals are finitely generated.
 </div>
 
 <div class="remark">
@@ -128,7 +128,9 @@ If $D$ is a ID, then say $p=ab$. So $p|ab\implies p|a$ or $p|b$. Then say $p|a$.
 So if $D$ is a PID, then irreducible $=$ primes. But we know that $D$ is UFD if every element of $D$ can be written as a product of irreducibles. But we also show  that PID are Noetherian.
 </div>
 
-So we finally proved $$\text{ ED}\implies \text{PID}\iff \text{ UFD}.$$
+So we finally proved $$\text{ ED}\implies \text{PID}\implies \text{ UFD}.$$
+
+And done!
 
 
 
