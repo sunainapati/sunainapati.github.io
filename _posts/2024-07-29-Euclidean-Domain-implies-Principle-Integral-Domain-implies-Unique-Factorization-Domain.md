@@ -111,6 +111,7 @@ So if $I$ is a maximal ideal, then $A/I$ is a field. So $I$ is prime ideal.
 </div>
 
 # Showing PID $\implies$ UFD
+
 <div class="lemma">
 Suppose $D$ is a PID. Then every irreducible element is prime.
 </div>
