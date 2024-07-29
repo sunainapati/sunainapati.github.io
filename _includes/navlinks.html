@@ -1,21 +1,59 @@
-<hr>
-<div class="post_navi">
-  {%- if page.previous.url -%}
-  <a class="post_navi-item nav_prev" href="{{ page.previous.url }}" title="{{ page.previous.title }}">
-    <div class="post_navi-arrow">&lt;</div><div class="post_navi-label">Previous Post</div><div><span>{{ page.previous.title }}</span></div>
-  </a>
-  {%- else -%}
-  <a class="post_navi-item nav_prev" href="{{ 'archive.html' | absolute_url }}" title="Blog Archive">
-    <div class="post_navi-arrow">&lt;</div><div class="post_navi-label">Blog Archive</div><div><span>Archive of all previous blog posts</span></div>
-  </a>
-  {%- endif -%}
-  {%- if page.next.url -%}
-  <a class="post_navi-item nav_next" href="{{ page.next.url }}" title="{{ page.next.title }}">
-    <div class="post_navi-arrow">&gt;</div><div class="post_navi-label">Next Post</div><div><span>{{ page.next.title }}</span></div>
-  </a>
-  {%- else -%}
-  <a class="post_navi-item nav_next" href="{{ 'archive.html' | absolute_url }}" title="Blog Archive">
-    <div class="post_navi-arrow">&gt;</div><div class="post_navi-label">Blog Archive</div><div><span>Archive of all previous blog posts</span></div>
-  </a>
-  {%- endif -%}
-</div>
+<nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      {% if site.title-img %}
+        <a class="navbar-brand navbar-brand-logo" href="{{ site.url }}"><img src="{{ site.title-img }}"/></a>
+      {% else %}
+        <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
+      {% endif %}
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      {% for link in site.navbar-links %}
+        {% if link[1].first %}
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
+            <div class="navlinks-children">
+              {% for childlink in link[1] %}
+                {% for linkparts in childlink %}
+                  {% include navbarlink.html link=linkparts %}
+                {% endfor %}
+              {% endfor %}
+            </div>
+          </li>
+        {% else %}
+          <li>
+            {% include navbarlink.html link=link %}
+          </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+	{% if page.image and (layout.show-avatar or page.show-avatar) %}
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="{{ site.url }} ">
+	      <img class="avatar-img" src="{{ page.image | prepend: site.baseurl | replace: '//', '/' }}" />
+		</a>
+	  </div>
+	</div>
+	{% elsif site.avatar and (layout.show-avatar or page.show-avatar) %}
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="{{ site.url }} ">
+	      <img class="avatar-img" src="{{ site.avatar | prepend: site.baseurl | replace: '//', '/' }}" />
+		</a>
+	  </div>
+	</div>
+	{% endif %}
+
+  </div>
+</nav>
