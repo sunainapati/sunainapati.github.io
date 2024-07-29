@@ -1,6 +1,6 @@
 ---
 layout: post
-_title: $\text{ ED}\implies \text{PID}\iff \text{ UFD}$
+_title: $\text{ ED}\implies \text{PID}\implies \text{ UFD}$
 tags : Number-theory Abstract-algebra Revision
 ---
 
