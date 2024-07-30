@@ -15,3 +15,4 @@ A little about me:
 - I love taking notes, organizing, being in pressure and learning a lot of new things.
 - These days I love biology and read it whenever I have free time.
 
+<img src="https://sunainapati.github.io/1722355300120.jpg" alt="my pic" width="200" height="200">
