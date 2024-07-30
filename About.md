@@ -16,5 +16,5 @@ A little about me:
 - These days I love biology and read it whenever I have free time.
 
 <p align="center">
-<img src="https://sunainapati.github.io/1722355300120.jpg" alt="my pic" width="350" height="350">
+<img src="https://sunainapati.github.io/1722355300120.jpg" alt="my pic" width="250" height="250">
 </p>
