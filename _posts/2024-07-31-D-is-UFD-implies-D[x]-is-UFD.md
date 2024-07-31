@@ -37,11 +37,7 @@ We can think about $\Bbb{Z}$ when working! For example, $\sigma(a)$ is just the 
 Now, there are some obvious properties which are true in $\Bbb{Z}$ and are also true in any UFD.
 
 <div class="theorem">
-- $\sigma(ab)=\sigma(a)\sigma(b)$
-- $|ab|=|a||b|$
-- $v_p(ab)=v_p(a)+v_p(b)$ 
--$a|b\iff v_p(a)\le v_p(b)$
-- $a=bu,u\in D^{\times}\iff v_p(a)=v_p(b)$
+We have $\sigma(ab)=\sigma(a)\sigma(b)$, $|ab|=|a||b|$, $v_p(ab)=v_p(a)+v_p(b)$, $a|b\iff v_p(a)\le v_p(b)$ and $a=bu,u\in D^{\times}\iff v_p(a)=v_p(b)$
 </div>
 I am going to skip proof as it is very obvious. People who are interested and can't find proof can google it up. I am lazy :P
 
