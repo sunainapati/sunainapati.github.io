@@ -37,8 +37,8 @@ We can think about $\Bbb{Z}$ when working! For example, $\sigma(a)$ is just the 
 Now, there are some obvious properties which are true in $\Bbb{Z}$ and are also true in any UFD.
 
 <div class="theorem">
-- \sigma(ab)=\sigma(a)\sigma(b)
-- |ab|=|a||b|
+- $\sigma(ab)=\sigma(a)\sigma(b)$
+- $|ab|=|a||b|$
 - $v_p(ab)=v_p(a)+v_p(b)$ 
 -$a|b\iff v_p(a)\le v_p(b)$
 - $a=bu,u\in D^{\times}\iff v_p(a)=v_p(b)$
@@ -58,7 +58,7 @@ If $d_1$ and $d_2$ satisfy this then $d_1=ud_2$ for $u\in D^{\times}$.
 That element is called **gcd**.
 
 <div class="proof">
-Suppose $a_1,\dots,a_n$ are non zero. We know that $b|a_1,\dots,b|a_n$, so $v_p(b)\le v_p(a_i)\forall p\in \mathscr{P}_D$. Let $$d=\prod_{p\in\mathscr{P}_D}p^{\min\{v_p(a_1),\dots,v_p(a_n)\}.$$ This is eesentially the same way we find gcd in $\Bbb{Z}$. 
+Suppose $a_1,\dots,a_n$ are non zero. We know that $b|a_1,\dots,b|a_n$, so $v_p(b)\le v_p(a_i)\forall p\in \mathscr{P}_D$. Let $$d=\prod_{p\in\mathscr{P}_D}p^{\min\{v_p(a_1),\dots,v_p(a_n)\}}.$$ This is eesentially the same way we find gcd in $\Bbb{Z}$. 
 Note that $b|a_1,\dots, b|a_n\iff b|d$. So existence done.
 Say $d_1$ and $d_2$ both satisfy the above property. So $d_1|d_2,d_2|d_1$. So $d_2=ud_1$. Done.
 </div>
