@@ -80,7 +80,7 @@ Suppose $fg$ is not primitive. Then $\exists p\in \mathscr{P}_D$ such that $p|\a
 </div>
 
 <div class="theorem">
-Suppose $D$ is a UFD. Then for every $f,g\in Q(D)[X]\\{0\}$ we have $\alpha(fg)=\alpha(f)\alpha(g)$. 
+Suppose $D$ is a UFD. Then for every $f,g\in Q(D)[X]/\{0\}$ we have $\alpha(fg)=\alpha(f)\alpha(g)$. 
 </div>
 <div class="proof">
 We know $f(x)=\alpha(f)\overline{f}(x)$ and $g(x)=\alpha(g)\overline{g}(x)$. So $fg=\alpha(f)\alpha(g)\overline{f}(x)\overline{g}(x)$. By gauss lemma, we get that $\overline{f}(x)\overline{g}(x)$ is a primitive polynomial. By comparing, we get that $\alpha(fg)=\alpha(f)\alpha(g)$.
