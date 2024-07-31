@@ -15,7 +15,7 @@ Hi, today we will discuss the Eisenstein Criterion for the irreducibility of pol
 # The theorem
 We begin with a lemma. 
 <div class="lemma">
- Suppose $F$ is a field and $g_1,g_2\in F[x]$ are two non constant polynomials such that $f_1(x)f_2(x)=cx^n$ for some $c\in F^{*}$ Then $f_1(0)=0,f_2(0)=0$. 
+ Suppose $F$ is a field and $f_1,f_2\in F[x]$ are two non constant polynomials such that $f_1(x)f_2(x)=cx^n$ for some $c\in F^{*}$ Then $f_1(0)=0,f_2(0)=0$. 
 </div>
 <div class="proof">
  Say $f_1(x)=b_rx^r+\dots b_1+b_0$, $f_2(x)=c_sx^s+\dots+c_1x+c_0$ where $b_i,c_j\in F$ and $b_r,c_s\in F^{*}$.
