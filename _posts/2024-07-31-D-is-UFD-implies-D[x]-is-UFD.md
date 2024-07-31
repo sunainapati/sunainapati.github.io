@@ -76,7 +76,7 @@ Not going to prove it as I myself have not understood it intuitively and also I 
 Suppose $f,g\in D[x]$ are primitive. Then $fg$ is primitive.
 </div>
 <div class="proof">
-Suppose $fg$ is not primitive. Then $\exist p\in \mathscr{P}_D$ such that $p|\alpha(fg)$. So all the coefficients $fg\in \langle p\rangle$. So $c_p(fg)=0$. As $D$ is UFD$\implies \langle p\rangle$ is a prime ideal. So $ D/\langle p\rangle$ is an Integral domain. So we work $ D/\langle p\rangle[x]$ which is also ID. As $c_p(f)c_p(g)=0\implies c_p(f)=0$ or $c_p(g)=0$, where $c_p$ is the residue map mod $p$.
+Suppose $fg$ is not primitive. Then $\exists p\in \mathscr{P}_D$ such that $p|\alpha(fg)$. So all the coefficients $fg\in \langle p\rangle$. So $c_p(fg)=0$. As $D$ is UFD$\implies \langle p\rangle$ is a prime ideal. So $ D/\langle p\rangle$ is an Integral domain. So we work $ D/\langle p\rangle[x]$ which is also ID. As $c_p(f)c_p(g)=0\implies c_p(f)=0$ or $c_p(g)=0$, where $c_p$ is the residue map mod $p$.
 </div>
 
 <div class="theorem">
@@ -90,10 +90,14 @@ So we also get
   $$\overline{fg}(x)=\overline{f}(x)\overline{g}(x)$$
 </div>
 
+
+
 # Irreducible in $D[x]\iff$ irreducible in $Q(D)[x]$
 
+
+
 Well, firstly by the previous post, we get that $Q(D)$ is a field and so $Q(D)[x]$ is PID and hence a UFD.
-Clearly say if $p(x)$ is irreducible in $\F[x]$ then it is clearly irreducible in $D$. So we just have to show that converse is true. 
+Clearly say if $p(x)$ is irreducible in $F[x]$ then it is clearly irreducible in $D$. So we just have to show that converse is true. 
 
 <div class="theorem">
 Suppose $p(x)\in D[x]$ with $p(x)=f(x)g(x)\in F[x]$ then there are $\overline{f}(x),\overline{g}(x)\in D[x]$ such that $p(x)= c\overline{f}(x)\overline{g}(x)$.
