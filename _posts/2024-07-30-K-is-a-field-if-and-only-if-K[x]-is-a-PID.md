@@ -25,7 +25,7 @@ If $g(x)\in I\implies p(x)|g(x)$.
 <div class="proof">
 If not then $g(x)=p(x)q(x)+r(x),\text{ deg }r(x)<\text{ deg }p(x)$. But that implies $r(x)\in I$. Not possible. 
 </div>
-$\impliedby$  Given $K[x]$ is a PID. We need to show $K$ is a field. Say we want to show that $u$ is a unit. Consider $\langle u,x \rangle$ which is ideal of $K[x]$. Note that by PID, $\exists f$ such that $\langle f\rangle=\langle u,x\rangle$. Now, clearly $f$ is constant by degree comparison. If $f$ is a unit then we are done. If not, then $\alpha(f)|\alpha(d)\forall d\in \langle f \rangle. But $\alpha(f)=1$.
+$\impliedby$  Given $K[x]$ is a PID. We need to show $K$ is a field. Say we want to show that $u$ is a unit. Consider $\langle u,x \rangle$ which is ideal of $K[x]$. Note that by PID, $\exists f$ such that $\langle f\rangle=\langle u,x\rangle$. Now, clearly $f$ is constant by degree comparison. If $f$ is a unit then we are done. If not, then $\alpha(f)|\alpha(d)\forall d\in \langle f \rangle$. But $\alpha(f)=1$.
 </div>
 
 # Some remarks
