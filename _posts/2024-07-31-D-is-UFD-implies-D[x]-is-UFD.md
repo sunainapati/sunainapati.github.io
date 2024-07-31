@@ -28,7 +28,8 @@ There is a bijection between $\mathscr{P}_D$ and set of principal prime ideals.
 We know that $p$ is irreducible $\iff$ $p$ is primes $\iff$ $\langle p\rangle$ is a prime ideal. And note that $\langle p\rangle=\langle \overline{p}\rangle$.
 </div>
 
-So once we have fixed $\mathscr{P}_D$, our "expansion" of the number (or we can say "factorization") is now unique. We get that there is unique $u_a\in D^{\times}$ and $n_p\ge 0\in \Bbb{Z}$ such that $$a=u_a\prod_{p\in\mathscr{P}_D}p^{n_p}.$$
+So once we have fixed $\mathscr{P}_ {D}$, our "expansion" of the number (or we can say "factorization") is now unique. We get that there is unique $u_a\in D^{\times}$ and $n_p\ge 0\in \Bbb{Z}$ such that $$a=u_a\prod_{p\in\mathscr{P}_D}p^{n_p}.$$
+
 So we define $n_p$ as the $v_p(a)$ and $\sigma(a)=u(p)$. We also define $|a|=\sigma(a)^{-1}a=\prod_{p\in\mathscr{P}_D}p^{n_p}$. We call $v_p(a)$ $p$-valuation of $a$.
 
 We can think about $\Bbb{Z}$ when working! For example, $\sigma(a)$ is just the sign of $a$, when we fix $\mathscr{P}_{\Bbb{Z}}$ as $\{p: p\text{ is positive prime}\}$.
