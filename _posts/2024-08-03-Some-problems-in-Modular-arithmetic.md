@@ -220,7 +220,6 @@ pairs $(i, j)$ such that $a_i + ik \equiv a_j + jk \pmod{p}$. Then by probabilis
 <div class="problem">[USATST 2021 P1]
  Determine all integers $s \ge 4$ for which there exist positive integers $a$, $b$, $c$, $d$ such that $s = a+b+c+d$ and $s$ divides $abc+abd+acd+bcd$.
 </div>
-<div class="proof">
 <div class="problem">[Some thing random]
  Find all pairs of positive integers $(a,b)$ such that\[ a^2b-1 \mid ab^3-1. \]
 </div>
