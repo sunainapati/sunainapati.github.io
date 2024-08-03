@@ -1,4 +1,3 @@
-
 ---
 layout: post
 _title: Some problems in modular arithmetic
