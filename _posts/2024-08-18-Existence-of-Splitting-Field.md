@@ -28,7 +28,7 @@ We show that $E$ is a field extension.
   We send $g(x)\in F $ to $g(x)+\langle f \rangle\in E$. Note that this map is a homomorphism. But kernel of this map is ideal of $F$. Since $F$ is a field implies kernel is $0$ or $F$. Clearly it is not $F$. So, it is injective. 
 </div>
 <div class="claim">
-$\lapha := x+ \langle f \rangle\in E$ is a zero of $f$.
+$\alpha := x+ \langle f \rangle\in E$ is a zero of $f$.
 </div>
 <div class="proof">
 Say $f(x)=a_nx^n+\dots+ a_0$. So in $E$, $$f(\alpha)=(a_n+\langle f \rangle)(x+ \langle f \rangle)^n+\dots+ a_0$$ $$=a_nx^n+\dots a_0 +\langle f\rangle=f(x)+\angle f\rangle =0+\langle f \rangle.$$
@@ -44,7 +44,9 @@ Idk but to me, this part did not make sense initially. So I took an example. So 
 # Existence of Splitting Field
 
 <div class="theorem">
-Suppose $F$ is a field and $f(x)\in F[x]$ is a non-constant polynomial. Then there is a field extension $E$ of $F$ and $\alpha_1,\dots, \alpha_n$ such that $$f(x)=a(x-\alpha_1)\dots (x_\alpha_n)$$ in $E$ and $E=F[\alpha_1,\dots,\alpha_n]$.
+Suppose $F$ is a field and $f(x)\in F[x]$ is a non-constant polynomial. Then there is a field extension $E$ of $F$ and $\alpha_1,\dots, \alpha_n$ such that 
+$$f(x)=a(x-\alpha_1)\dots (x-\alpha_n)$$ 
+in $E$ and $E=F[\alpha_1,\dots,\alpha_n]$.
 </div>
 
 This $E$ is called a splitting field of $f(x)$ over $F$.
@@ -55,7 +57,8 @@ Also, here we essentially just use strong induction!
 If $f$ is not irreducible in $F[x]$, then there are non constant $g(x), h(x)$ such that $f=gh$. Then using strong induction on $g(x), h(x)$ we get that $g(x)=a_1(x-\alpha_1)\dots (x-\alpha_m)$ and $E_1=F[\alpha_1,\dots,\alpha_m]$.
 And $h(x)=a_2(x-\alpha_{m+1})\dots (x-\alpha_{n})$ and $E_2=F[\alpha_{m+1},\dots,\alpha_{n}]$. Then take $$E= [F[\alpha_1,\dots,\alpha_m]][\alpha_{m+1},\dots,\alpha_{n}]= F[\alpha_1,\dots,\alpha_m,\alpha_{m+1},\dots,\alpha_{n}].$$
   
-If $f$ is irreducible in $F[x]$, then we use the above lemma and get that there is a field extension $E$ of $F$ and $\alpha \in E$ such that $f(\alpha)=0$ and $E=F[\alpha]$. Since $f(\alpha)=0$ in $E$ $\implies f(x)=(x-\alpha)g(x)$ in $E$.Now induct on $g$ and we are done!
+If $f$ is irreducible in $F[x]$, then we use the above lemma and get that there is a field extension $E$ of $F$ and $\alpha \in E$ such that $f(\alpha)=0$ and $E=F[\alpha]$. Since $f(\alpha)=0$ in $E$ $\implies f(x)=(x-\alpha)g(x)$ in $E$. 
+Now induct on $g$ and we are done!
 </div>
 
 
