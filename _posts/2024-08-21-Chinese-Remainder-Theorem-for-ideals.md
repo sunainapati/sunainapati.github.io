@@ -4,7 +4,7 @@ _title: Chinese Remainder theorem
 tags : Number-theory Abstract-algebra Olympiad-Number-theory
 ---
 
-Hello, I have been thinking of proving CRT since a while. It makes sense to me intuitively on why it is true as essentially $$\Bbb{Z}{mn\Bbb{Z}\cong \Bbb{Z}{m\Bbb{Z}}\times \Bbb{Z}{m\Bbb{Z}}$$ so there is some isomorphism. However, let us prove it for ideals. Also, note that we can generalise the result to any number of ideals. 
+Hello, I have been thinking of proving CRT since a while. It makes sense to me intuitively on why it is true as essentially $$\Bbb{Z}/{mn\Bbb{Z}}\cong \Bbb{Z}/{m\Bbb{Z}}\times \Bbb{Z}/{n\Bbb{Z}}, \gcd(m,n)=1$$ so there is some isomorphism. However, let us prove it for ideals. Also, note that we can generalise the result to any number of ideals. 
 
 Let $R$ be a ring and $I$ and $J$ be ideals in $R$ such that $I+J =R$. So $I,J$ are co-maximal ideals. 
 
