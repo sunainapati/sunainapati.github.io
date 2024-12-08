@@ -4,7 +4,7 @@ _title: Some Problems in Olympiad Graph theory
 tags : Olympiad-Graph-theory
 ---
 
-I recently took a class at the European Girls' Mathematical Olympiad Training Camp 2024, held at CMI. Here are a few problems that I discussed! My main references were Po-Shen Loh's Graph theory Problem set (2008), Adrian tang's Graph theory problem set (2012), WWARUT SUKSOMPONG Warut Suksompong's Graph Cycles and Olympiad Problems Handout and AoPS. I also referred to Evan Chen's Graph theory Otis Problem set for nice problems!
+I recently took a class at the European Girls' Mathematical Olympiad Training Camp 2024, held at CMI. Here are a few problems that I discussed! My main references were Po-Shen Loh's Graph theory Problem set (2008), Adrian tang's Graph theory problem set (2012) and Warut Suksompong's Graph Cycles and Olympiad Problems Handout and AoPS. I also referred to Evan Chen's Graph theory Otis Problem set for nice problems!
 
 # Contents
 {:.no_toc}
