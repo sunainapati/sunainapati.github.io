@@ -43,7 +43,7 @@ then $G$ contains a cycle of length at least $d$.
  Continue this process. Eventually it has to stop as the graph is finite. And we will be done!
 </div>
 <div class='remark'>
- So the idea here was to continue adding more and more and more vertices whenever we can. So in a sense, this is a greedy problem. The idea also comes from BFS because in a sense we are trying to go as much depth as we can. 
+ So the idea here was to continue adding more and more and more vertices whenever we can. So in a sense, this is a greedy problem. The idea also comes from DFS because in a sense we are trying to go as much depth as we can. 
 </div>
 <div class='problem'>
  Prove that the sum of all of the degrees is equal to twice the number of edges. Deduce that the number of
@@ -104,7 +104,7 @@ for which every red-blue coloring of the edges of $K_n$ contains either a comple
 blue $K_t$. Prove that $R(s, t)\le \binom{s+t-2}{s-1}$.
 </div>
 <div class='proof'>
- Note that $R(s, t) \ge R(s-1, t)+R(s, t-1)$, because if we have that many vertices, then when we select one vertex, then it will atleast have $\ge$ $R(s-1, t)$ red neighbors or $\ge$ $R(s, t-1)$
+ Note that $R(s, t) \le R(s-1, t)+R(s, t-1)$, because if we have that many vertices, then when we select one vertex, then it will atleast have $\ge$ $R(s-1, t)$ red neighbors or $\ge$ $R(s, t-1)$
 blue neighbors, so we will have red $K_s$ or a blue $K_t$. By induction, we get $$\binom{s-1+t-2}{s-2}+\binom{s+t-1-2}{s-1}=\binom{s+t-2}{s-1}$$
 </div>
 
