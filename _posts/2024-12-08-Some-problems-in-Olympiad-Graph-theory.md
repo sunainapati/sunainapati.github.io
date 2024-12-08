@@ -261,7 +261,7 @@ When we total sum the terms from each vertex, we get it to be divisible by $n$. 
 <div class='remark'>
 The idea for constructing a graph was very new and something to keep in mind!
 </div>
-<div class='problem'>
+<div class='problem'> [ISL 2012 A5]
  An integer $n \geq 3$ is given. We call an $n$-tuple of real numbers $(x_1, x_2, \dots, x_n)$ Shiny if for each permutation $y_1, y_2, \dots, y_n$ of these numbers, we have
 $$\sum \limits_{i=1}^{n-1} y_i y_{i+1} = y_1y_2 + y_2y_3 + y_3y_4 + \cdots + y_{n-1}y_n \geq -1.$$Find the largest constant $K = K(n)$ such that
 $$\sum \limits_{1 \leq i \le j-1 \leq n} x_i x_j \geq K$$holds for every Shiny $n$-tuple $(x_1, x_2, \dots, x_n)$.
