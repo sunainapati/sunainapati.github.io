@@ -137,7 +137,7 @@ blue neighbors, so we will have red $K_s$ or a blue $K_t$. By induction, we get 
 <div class='proof'>
 If $G$ is bipartite with vertex sets $V_1$ and $V_2$. If there is an odd cycle, then there must be an edge between two vertices of the same vertex set. 
 Conversely, suppose that every cycle of $G$ is even. Then  We consider the following algorithm.
-<div class='code'>
+
  -  pick a vertex ( say $v$) and colour it red.
    
  -  consider all the vertices $v$ is adjacent to and colour them blue
@@ -147,7 +147,6 @@ Conversely, suppose that every cycle of $G$ is even. Then  We consider the follo
  -  consider all the red vertices and consider all the vertices adjacent to the red vertices and colour them blue
    
  -  repeat step $3$ and $4$ untill all vertices are coloured
-</div>
 
 Note that this will give a valid colouring ( red vertices will be one vertex set and blue vertices will be another vertex set). We will not get any ambiguous colouring because then it would imply that there is some odd cycle. 
 </div>
