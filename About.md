@@ -14,7 +14,7 @@ Hi! I am Sunaina Pati. I plan to blog about my struggling undergraduate days. I 
 - I love to teach! I was a counsellor ( Teaching Assistant) at [PROMYS India 2024](https://promys-india.org/) and a student in 2023, and I have taught in multiple Olympiad camps and TAed a few courses.
 - I love jigsaw puzzles ( preferably the ones which are not single coloured as then it is mostly just shape sorting).
 
-**Note**: If I am TAing your course, please ask me questions regarding coursework and problems. I prefer if you ask me over email as I might be busy solving my own problems/ reading my own coursework. I will try to answer you in a few hours ( whenever I see your email).
+**Note**: If I am TAing your course, please feel free to ask me questions regarding coursework and problems. I prefer if you ask me over email as I might be busy solving my own problems/ reading my own coursework. I will try to answer you in a few hours ( whenever I see your email).
 - My grading is in general very lenient and I do not cut marks for silly calculation errors or some typos ( unless the professor has asked me to grade harshly). So do not worry about that!
 
 **Courses I have TAed/ TAing**:
