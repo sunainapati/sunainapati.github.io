@@ -24,9 +24,7 @@ We begin with a lemma.
  Prove that a graph $G$  of order $n \geq 2k$ is $k$ connected then every 2 disjoint set $V_1$ and $V_2$ of $k$ distinct vertices each, there exist $k$ pairwise disjoint paths connecting $V_1$ and $V_2$
 </div>
 Actually the lemma is an iff condition.
-<div class='proof'>
-If not, then pick any disjoint vertices in the path. It will be less than $k$ and disconnects the graph. Which contradicts the $k$ connectedness.
-</div>
+
 Let $k \ge 2$. As $G$ is $k$-connected, it is connected and by problem $2$, it must contain a cycle. Consider a maximal cycle $C$. If $|C|\ge 2k$ we are done. Again, by problem $2$, the cycle's lenght is atleast $k$. Also, note that each vertex has degree atleast $k$. 
 So, there is $v\in G/C$. Consider $A=N(v)$ ( neighbour of $v$) and $B=C$. There are atleast $k$ disjoint path between $A$ and $B$. By pigeonhole principle, $\exists$ two vertices in $A$ say $v_1,v_2$ which have distinct path to $C$. So we get a bigger cycle, $v-v_1-P_{v_1,C}-C-P_{v_2,C}-v_2-v$, where $P_{v_i,C}$ denotes the path from $v_i$ to $C$ which is distinct.
 </div>
