@@ -207,7 +207,7 @@ So $s \geq (t +1) q_n + q_{n-1} > Q$, a contradiction.
 </div>
 
 
-<div class='remark'> So in  the last line only, we used that $(t+1)q_n+q_{n-1}>Q$.
+<div class='remark'> So in  the last line only, we used that $(t+1)q_n+q_{n-1}$  less than $Q$.
 </div>
 
 
