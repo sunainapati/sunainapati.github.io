@@ -4,6 +4,7 @@ _title: Euclid's Algorithm and Continued Fractions
 tags : Algorithmic-Number-theory Number-theory
 ---
 
+
 # Euclid's Algorithm and Continued Fractions
 I am following Professor Swastik's Algorithmic Number Theory course notes offered at Rudgerts in 2014. 
 We start with Lectures 1 and 2! 
