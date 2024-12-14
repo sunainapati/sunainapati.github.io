@@ -64,15 +64,41 @@ Note that, we can simply bash and find a solution, but that will take  some larg
 ### Continued Fractions
 We consider the Euclid's GCD algorithm on $a>b$. Then:
 $$a=bq_0+r_0$$
+
 $$b=r_0q_1+r_1$$
+
 $$r_0=r_1q_2+r_2$$
+
 $$\vdots$$
+
 $$r_{n-2}=r_{n-1}q_n+0$$
 
 So $$\frac{a}{b}=q_0+\frac{r_0}{b}$$
+
 $$\frac{b}{r_0}=q_1+\frac{r_1}{r_0}$$
+
 $$\vdots$$
+
 $$\frac{r_{n-2}}{r_{n-1}}=q_n$$
 
 We can also represent it this way:
 
+
+$$\frac{a}{b}}= q_0+\cfrac{1}{q_1+\cfrac{1}{q_2+\cfrac{1}{q_3+\dots \frac{1}{q_n}}}}$$
+
+Note this fraction will be continued since we are dealing with rational numbers. Infact, we can do it for any $\alpha\in \Bbb{R}^{+}$. 
+
+Given $\alpha\in \Bbb{R}^{+}$, $\alpha=[\alpha]+\frac{1}{\alpha_1}, \alpha_2=[\alpha_2]+\alpha_3$ and so on.
+
+Notation: $[\alpha_i]=a_i,[\alpha]=a_0$. 
+
+We get that $$
+\alpha=
+a_0+\cfrac{1}{a_1+\cfrac{1}{a_2+\cfrac{1}{a_3+\dots \vphantom{\cfrac{1}{1}}}}}$$
+
+Note that, the fraction terminates $\iff \alpha$ is rational. 
+
+We define $\frac{p_0}{q_0}=a_0, \frac{p_1}{q_1}=a_0+\frac{1}{a_1},\dots $
+<div class='claim'>
+ $$p_nq_{n-1}-q_np_{n-1}=(-1)^{n+1}$$
+</div>
