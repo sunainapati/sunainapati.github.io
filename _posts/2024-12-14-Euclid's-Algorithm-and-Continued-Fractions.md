@@ -11,7 +11,7 @@ We start with Lectures 1 and 2!
  
 ## Greatest common divisor and recognizing rational numbers
 <div class='definition'>
-Given integrers $a,b>0,\gcd(a,b):= \text{ largest } d>0 \text{ such that } d|a, d|b \text{ in } \Bbb{Z}.$ 
+Given integrers $a,b$ &gt $0,\gcd(a,b):= \text{ largest } d>0 \text{ such that } d|a, d|b \text{ in } \Bbb{Z}.$ 
 </div>
 ## Complexity of elementary arithmetic operations
 Note: We know the computer processes and stores information in binary digits, so our input for any natural number $(a)_{10}$ will be in binary, so it will have $[\log_2(a)]$ many digits. 
