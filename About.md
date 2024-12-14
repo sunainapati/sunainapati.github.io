@@ -23,8 +23,7 @@ Hi! I am Sunaina Pati. I plan to blog about my struggling undergraduate days. I 
 - Algebra 2 (Taught by Professor Clare D'Cruz). TAing in my fourth semester of Undergraduate.
 - Discrete Mathematics ( Taught by Professor V. Arvind and Amit Kumar Sinhababu). TAing in my fourth semester of Undergraduate.
 - Algebra 1 ( Taught by Professor Aditya Karnataki). TAed in my third semester.
-
-## Note to students attending courses I am TAing:
+Note to students attending courses I am TAing:
 - If I am TAing your course, please feel free to ask me questions regarding coursework and problems. I prefer if you ask me over email as I might be busy solving my own problems/ reading my own coursework. I will try to answer you in a few hours ( whenever I see your email).
 - My grading is in general very lenient and I do not cut marks for silly calculation errors or some typos ( unless the professor has asked me to grade harshly). So do not worry about that!
 
