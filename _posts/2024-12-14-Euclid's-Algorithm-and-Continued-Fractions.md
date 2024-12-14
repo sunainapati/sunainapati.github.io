@@ -7,7 +7,7 @@ tags : Algorithmic-Number-theory Number-theory
 # Euclid's Algorithm and Continued Fractions
 I am following Professor Swastik's Algorithmic Number Theory course notes offered at Rudgerts in 2014. 
 We start with Lectures 1 and 2! 
-
+ 
 ## Greatest common divisor and recognizing rational numbers
 <div class='definition'>
 Given integrers $a,b>0,\gcd(a,b):= \text{ largest } d>0 \text{ such that } d|a, d|b \text{ in } \Bbb{Z}.$ 
