@@ -4,7 +4,7 @@ title: About
 ---
 
 
-Hi! I am Sunaina Pati. I plan to blog about my struggling undergraduate days. I am currently pursuing mathematics and Theoretical CS at CMI. I have completed my first year at [Chennai Mathematical Institute](https://www.cmi.ac.in/). I like reading about number theory and its application to Theoretical Computer science. I use this site to publish my workings in math and TCS, for example, sharing the lecture notes, some theorems which found very fascinating, notes to my current reading projects, problem sets of classes/tutorials I took, etc. I will soon upload proper notes in this site.
+Hi! I am Sunaina Pati. I plan to blog about my struggling undergraduate days. I am currently pursuing mathematics and Theoretical CS at CMI. I have completed my first year at [Chennai Mathematical Institute](https://www.cmi.ac.in/). I like reading about number theory and its application to Theoretical Computer science. I use this site to publish my workings in math and TCS, for example, sharing the lecture notes, some theorems which found very fascinating, notes to my current reading projects, problem sets of classes/tutorials I took, etc. I will soon upload proper notes on this site.
 
 # Contents
 {:.no_toc}
