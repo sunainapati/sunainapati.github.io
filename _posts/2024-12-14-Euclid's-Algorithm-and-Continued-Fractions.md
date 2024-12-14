@@ -17,11 +17,11 @@ Note: We know the computer processes and stores information in binary digits, so
 
 
 - **Addition/ Subtraction** Naive algorithm ( simply add digit wise) for addition takes $O(\log a +\log b)$ time.
-- **Multiplication** Naive algorithm ( simply multiplying the way we did in highschool) will take $O(\log a+\log b)$.
-- **Factoring** We essentially try finding the prime factors of the number. Say if the number is an $n$ bit number, then it would be atmost $2^n$ decimal number. The number of times we would have to perform the trial division is bounded above to the number of distinct primes dividing the squareroot of the number which is calculated by the $\pi$ function. We know that the $\pi(n)= \frac{n}{\log_e(n)}$. So it would take around $\frac{2^{n/2}}{n/2\log_e(2)}$. We also have to account for the division so $O(n^2\cdot \frac{2^{n/2}}{n/2\log_e(2)})$. In any case, this is exponential in terms of $n$ ( which is the number of digits in base $2$). 
+- **Multiplication** Naive algorithm ( simply multiplying the way we did in high school) will take $O(\log a+\log b)$.
+- **Factoring** We essentially try finding the prime factors of the number. Say if the number is an $n$ bit number, then it would be atmost $2^n$ decimal number. The number of times we would have to perform the trial division is bounded above to the number of distinct primes dividing the square root of the number which is calculated by the $\pi$ function. We know that the $\pi(n)= \frac{n}{\log_e(n)}$. So it would take around $\frac{2^{n/2}}{n/2\log_e(2)}$. We also have to account for the division so $O(n^2\cdot \frac{2^{n/2}}{n/2\log_e(2)})$. In any case, this is exponential in terms of $n$ ( which is the number of digits in base $2$). 
 
 ### GCD
- We will give a polynomial time algorithm for computing the GCD for two positive integers. So if we have $a,b$ are in decimal form, then the algorithm will have time complexity of $O(\text{ poly} (\log a,\log b))$.
+ We will give a polynomial time algorithm for computing the GCD for two positive integers. So if we have $a,b$ in decimal form, then the algorithm will have time complexity of $O(\text{ poly} (\log a,\log b))$.
 
 ### Euclid's GCD algorithm 
 We begin with the following claim. 
@@ -188,7 +188,7 @@ q_{n} & q_{n-1}  \\
  \end{array} \right]\right)}{\left(sq_n + q_{n-1}\right)^2}$$
 does not change sign.
 </div>
-  Hence, L must be between  $\frac{p_{n+1}}{q_{n+1}}$ and $\frac{p_{n-1}}{q_{n-1}}$, both of which are at least $\alpha$. Hence $L$ is at least $\alpha$. If $\frac{r}{s}$ is strictly closer to $\alpha$ than both $c_n$ and $L$, then $\frac{r}{s} \in I = (c_n, L)$. For contradiction, suppose $0 < s \leq Q$. Then 
+  Hence, L must be between  $\frac{p_{n+1}}{q_{n+1}}$ and $\frac{p_{n-1}}{q_{n-1}}$, both of which are at least $\alpha$. Hence $L$ is at least $\alpha$. If $\frac{r}{s}$ is strictly closer to $\alpha$ than both $c_n$ and $L$, then $\frac{r}{s} \in I = (c_n, L)$. For contradiction, suppose $0 &lt s \leq Q$. Then 
  $$\left| \frac{r}{s} - \frac{p_n}{q_n}\right| \geq \frac{1}{s q_n},$$
  because $\frac{r}{s} \neq \frac{p_n}{q_n}$, and similarly 
  $$\left| \frac{r}{s} - L\right| \geq \frac{1}{s (t q_n + q_{n-1})}.$$
@@ -206,9 +206,9 @@ As we noted before, $q_n$ increases monotonically until $n = N$. As $\frac{a}{b}
 It will be of use to bound $p_n$ and $q_n$. We already know that $q_n \leq b$. From Remark, we know that $\left|p_n  -  q_n\frac{a}{b}\right| \leq \frac{1}{q_{n-1}}$. Hence $|p_n| \leq \left|\frac{q_n}{b}\right| \left|a\right| + \frac{1}{q_{n-1}} = O(a)$.
 
 - We know that the $n$ from Theorem is $O(\log(Q))$ because the $q_n$ grow at least as fast as the $n^{th}$ entry of the Fibonacci sequence provided $n \leq N$.
-- At each step in the computation of the continued fraction, we compute the floor of a rational number $\alpha_i = \frac{r_i}{s_i}$, which is simply the number of times the denominator of $\alpha_i$ goes into the numerator. This is division with remainder, which we know to take $O(\log(r_i)\log(s_i))$ operations.
+- At each step in the computation of the continued fraction, we compute the floor of a rational number $\alpha_i = \frac{r_i}{s_i}$, which is simply the number of times the denominator of $\alpha_i$ goes into the numerator. This is a division with remainder, which we know to take $O(\log(r_i)\log(s_i))$ operations.
 - We know $\alpha_i = \frac{1}{\alpha_{i-1} - \lfloor\alpha_{i - 1}\rfloor}$, which has denominator the remainder of $r_{i - 1}$ under division by $s_{i - 1}$ (which is strictly smaller than $s_{i-1}$) and numerator $s_{i-1}$. As $\alpha_0 =\alpha = \frac{a}{b}$, we can conclude by induction that $r_i, s_i \leq \max(a, b)$ and so the number of operations per step is certainly at most $O((\log(a) + \log(b))^2)$.
-- Finding $t$ can take at most $O(\log(Q)^2)$ steps, as we find it by division with remainder of $Q - q_{n-1}$ by $q_{n-1}$. $t$ is at most $a_{n+1}$, which is at most $q_{n+1} \leq b$. $p_n, p_{n-1} = O(a)$.
+- Finding $t$ can take at most $O(\log(Q)^2)$ steps, as we find it by division with the remainder of $Q - q_{n-1}$ by $q_{n-1}$. $t$ is at most $a_{n+1}$, which is at most $q_{n+1} \leq b$. $p_n, p_{n-1} = O(a)$.
 - Taken together, finding $L$ must take $O(poly(\log(a), \log(b), \log(Q)))$.
 - Finding whether $L$ or $c_n$ is closer to $\alpha$ can also certainly take at most $O(poly(\log(a), \log(b), \log(Q)))$, and finding the continued fraction is also $O(poly(\log(a), \log(b), \log(Q)))$. Hence the entire running time must be $O(poly(\log(a), \log(b), \log(Q)))$.
 
