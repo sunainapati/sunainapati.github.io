@@ -104,34 +104,7 @@ We define $\frac{p_0}{q_0}=a_0, \frac{p_1}{q_1}=a_0+\frac{1}{a_1},\dots $
 </div>
 <div class='proof'>
  We use matrices!
- Define  $$
-  \left[ {\begin{array}{cc}
-   p_1 & p_0 \\
-   q_1 & q_0 \\
-  \end{array} } \right]= \left[ {\begin{array}{cc}
-   a_1a_0+1 & a_0 \\
-   a_1 & 1 \\
-  \end{array} } \right].
-$$
-Note that ( by induction simply) 
- $$\left[ {\begin{array}{cc}
-   p_n & p_{n-1} \\
-   q_n & q_{n-1} \\
-  \end{array} } \right]
-  \left[ {\begin{array}{cc}
-   a_{n+1} & 1 \\
-   1 & 0 \\
-  \end{array} } \right]= 
-  \left[ {\begin{array}{cc}
-   p_{n+1} & p_{n} \\
-   q_{n+1} & q_{n} \\
-  \end{array} } \right]
-  $$
-And hence, the  $$
-\det\left[ {\begin{array}{cc}
-   p_n & p_{n-1} \\
-   q_n & q_{n-1} \\
-  \end{array} } \right]=(-1)^{n+1}.$$
+ Define  
 </div>
 So, this implies $p_n,p_{n-1}$ are relatively prime. Similarly $q_n,q_{n-1}$. 
 
