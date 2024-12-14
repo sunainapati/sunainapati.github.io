@@ -196,11 +196,11 @@ q_{n} & q_{n-1}  \\
  
 does not change sign.
 </div>
-
+</div>
  
 
 ## Running time
-It will be of use to bound $p_n$ and $q_n$. We already know that $q_n \leq b$. From Remark, we know that $\left|p_n  -  q_n\frac{a}{b}\right| \leq \frac{1}{q_{n-1}}$. Hence $|p_n| \leq \left|\frac{q_n}{b}\right| \left|a\right| + \frac{1}{q_{n-1}} = O(a)$.
+It will be of use to bound $p_n$ and $q_n$. We already know that $q_n \leq b$. From Remark, we know that $|p_n  - q_n\frac{a}{b}| \leq \frac{1}{q_{n-1}}$. Hence $|p_n| \leq |\frac{q_n}{b}| |a| + \frac{1}{q_{n-1}} = O(a)$.
 
 - We know that the $n$ from Theorem is $O(\log(Q))$ because the $q_n$ grow at least as fast as the $n^{th}$ entry of the Fibonacci sequence provided $n \leq N$.
 - At each step in the computation of the continued fraction, we compute the floor of a rational number $\alpha_i = \frac{r_i}{s_i}$, which is simply the number of times the denominator of $\alpha_i$ goes into the numerator. This is a division with remainder, which we know to take $O(\log(r_i)\log(s_i))$ operations.
