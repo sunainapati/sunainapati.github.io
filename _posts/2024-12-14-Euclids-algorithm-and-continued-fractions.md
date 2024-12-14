@@ -204,10 +204,12 @@ does not change sign.
 Observe that $|I| =|\frac{p_n}{q_n} - \frac{t p_n + p_{n-1}}{tq_n + q_{n-1}}| = \frac{1}{{q_n}(t q_n + q_{n-1})}$.
 Then $$|I| = \frac{1}{{q_n}(t q_n + q_{n-1})} \geq \frac{1}{s (t q_n + q_{n-1})} + \frac{1}{s q_n} = \frac{1}{s}(\frac{1}{t q_{n} + q_{n-1}} + \frac{1}{q_n}) =\frac{1}{s}( \frac{t q_{n} + q_{n-1} + q_n}{q_n(t q_{n} + q_{n-1})}). $$
 So $s \geq (t +1) q_n + q_{n-1} > Q$, a contradiction. 
-
-
-<div class='remark'> So in  the last line only, we used that $(t+1)q_n+q_{n-1}$  less than $Q$.
 </div>
+
+<div class='remark'> 
+ So in  the last line only, we used that $(t+1)q_n+q_{n-1}$  less than $Q$.
+</div>
+
 We saw in the proof that if $n$ is even, $\alpha \in (c_n, L)$, and if $n$ is odd, $\alpha \in (L, c_n)$. Further, the interval has length exactly $\frac{1}{{q_n}(t q_n + q_{n-1})}$. Then $|c_n - \alpha| \leq \frac{1}{{q_n}(t q_n + q_{n-1})} \leq \frac{1}{q_n q_{n-1}}.$
  We know that one of $\frac{a}{q} = c_n$ and $\frac{a}{q} = L$ have $|\frac{a}{q} - \alpha| \leq \frac{1}{qQ}$. Then we must have that $|(c_n, L)| \geq |\frac{a}{q} - \alpha|$ Hence $|c_n - \alpha| \leq \frac{1}{{q_n}(t q_n + q_{n-1})} \leq \frac{1}{q_n q_{n-1}}$. 
 
