@@ -187,41 +187,12 @@ We are keeping in mind the convergents.
  $s$ ranges from $0$ to $a_{n+1}$, $\frac{s p_n + p_{n-1}}{sq_n + q_{n-1}}$ ranges monotonically
 </div>
 <div class='proof'>
-This is because $$\frac{d}{ds} \left(\frac{s p_n + p_{n-1}}{sq_n + q_{n-1}}\right) = \frac{p_n(sq_n+q_{n-1})-q_n(sp_n+p_{n-1})}{\left(sq_n + q_{n-1}\right)^2}=\frac{\det\left(\left[ \begin{array}{cc}
+This is because 
+ 
+ $$\frac{d}{ds} \left(\frac{s p_n + p_{n-1}}{sq_n + q_{n-1}}\right) = \frac{p_n(sq_n+q_{n-1})-q_n(sp_n+p_{n-1})}{\left(sq_n + q_{n-1}\right)^2}=\frac{\det\left(\left[ \begin{array}{cc}
 p_{n} & p_{n-1}   \\
 q_{n} & q_{n-1}  \\
  \end{array} \right]\right)}{\left(sq_n + q_{n-1}\right)^2}$$
+ 
 does not change sign.
 </div>
-  Hence, L must be between  $\frac{p_{n+1}}{q_{n+1}}$ and $\frac{p_{n-1}}{q_{n-1}}$, both of which are at least $\alpha$. Hence $L$ is at least $\alpha$. If $\frac{r}{s}$ is strictly closer to $\alpha$ than both $c_n$ and $L$, then $\frac{r}{s} \in I = (c_n, L)$. For contradiction, suppose $0 &lt s \leq Q$. Then 
- $$\left| \frac{r}{s} - \frac{p_n}{q_n}\right| \geq \frac{1}{s q_n},$$
- because $\frac{r}{s} \neq \frac{p_n}{q_n}$, and similarly 
- $$\left| \frac{r}{s} - L\right| \geq \frac{1}{s (t q_n + q_{n-1})}.$$
-Observe that $|I| =\left|\frac{p_n}{q_n} - \frac{t p_n + p_{n-1}}{tq_n + q_{n-1}}\right| = \frac{1}{{q_n}(t q_n + q_{n-1})}$.
-Then $$|I| = \frac{1}{{q_n}(t q_n + q_{n-1})} \geq \frac{1}{s (t q_n + q_{n-1})} + \frac{1}{s q_n} = \frac{1}{s}\left(\frac{1}{t q_{n} + q_{n-1}} + \frac{1}{q_n}\right) =\frac{1}{s}\left( \frac{t q_{n} + q_{n-1} + q_n}{q_n(t q_{n} + q_{n-1})}\right). $$
-So $s \geq (t +1) q_n + q_{n-1} > Q$, a contradiction. 
-
-</div>
-
-
-<div class='remark'> So in  the last line only, we used that $(t+1)q_n+q_{n-1}>Q$.
-</div>
-
-
-We saw in the proof that if $n$ is even, $\alpha \in (c_n, L)$, and if $n$ is odd, $\alpha \in (L, c_n)$. Further, the interval has length exactly $\frac{1}{{q_n}(t q_n + q_{n-1})}$. Then $|c_n - \alpha| \leq \frac{1}{{q_n}(t q_n + q_{n-1})} \leq \frac{1}{q_n q_{n-1}}.$
- We know that one of $\frac{a}{q} = c_n$ and $\frac{a}{q} = L$ have $|\frac{a}{q} - \alpha| \leq \frac{1}{qQ}$. Then we must have that $|(c_n, L)| \geq |\frac{a}{q} - \alpha|$ Hence $|c_n - \alpha| \leq \frac{1}{{q_n}(t q_n + q_{n-1})} \leq \frac{1}{q_n q_{n-1}}$. 
-
-As we noted before, $q_n$ increases monotonically until $n = N$. As $\frac{a}{b}$ is the best approximation with denominator at most $Q$ for any $Q \geq b$, we cannot have $q_n > b$ for any $n$. If so, then $q_{n+1} > b$ as well. Either $L$ or $\frac{p_{n+1}}{q_{n+1}}$ would at least as good an approximation as $\frac{a}{b}$ with denominator at most $q_{n+1}$. For any $t > 0$, $tq_{n+1}  + q_{n} > q_{n+1}$, so $t=0$. Then $L = \frac{p_{n}}{q_{n}}$. This is impossible, because $\frac{p_n}{q_n}$ and $\frac{p_{n+1}}{q_{n+1}}$ are reduced and therefore neither are equal to $\frac{a}{b}$. This also applies that $N$ exists for $\alpha$ if and only if $\alpha$ is rational., i.e. the continued fraction representation of $\alpha$ terminates iff $\alpha$ is rational.
-
-## Running time
-It will be of use to bound $p_n$ and $q_n$. We already know that $q_n \leq b$. From Remark, we know that $\left|p_n  -  q_n\frac{a}{b}\right| \leq \frac{1}{q_{n-1}}$. Hence $|p_n| \leq \left|\frac{q_n}{b}\right| \left|a\right| + \frac{1}{q_{n-1}} = O(a)$.
-
-- We know that the $n$ from Theorem is $O(\log(Q))$ because the $q_n$ grow at least as fast as the $n^{th}$ entry of the Fibonacci sequence provided $n \leq N$.
-- At each step in the computation of the continued fraction, we compute the floor of a rational number $\alpha_i = \frac{r_i}{s_i}$, which is simply the number of times the denominator of $\alpha_i$ goes into the numerator. This is a division with remainder, which we know to take $O(\log(r_i)\log(s_i))$ operations.
-- We know $\alpha_i = \frac{1}{\alpha_{i-1} - \lfloor\alpha_{i - 1}\rfloor}$, which has denominator the remainder of $r_{i - 1}$ under division by $s_{i - 1}$ (which is strictly smaller than $s_{i-1}$) and numerator $s_{i-1}$. As $\alpha_0 =\alpha = \frac{a}{b}$, we can conclude by induction that $r_i, s_i \leq \max(a, b)$ and so the number of operations per step is certainly at most $O((\log(a) + \log(b))^2)$.
-- Finding $t$ can take at most $O(\log(Q)^2)$ steps, as we find it by division with the remainder of $Q - q_{n-1}$ by $q_{n-1}$. $t$ is at most $a_{n+1}$, which is at most $q_{n+1} \leq b$. $p_n, p_{n-1} = O(a)$.
-- Taken together, finding $L$ must take $O(poly(\log(a), \log(b), \log(Q)))$.
-- Finding whether $L$ or $c_n$ is closer to $\alpha$ can also certainly take at most $O(poly(\log(a), \log(b), \log(Q)))$, and finding the continued fraction is also $O(poly(\log(a), \log(b), \log(Q)))$. Hence the entire running time must be $O(poly(\log(a), \log(b), \log(Q)))$.
-
-
-
