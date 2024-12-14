@@ -11,7 +11,7 @@ We start with Lectures 1 and 2!
  
 ## Greatest common divisor and recognizing rational numbers
 <div class='definition'>
-Given integrers $a,b$ &gt $0,\gcd(a,b):= \text{ largest } d>0 \text{ such that } d|a, d|b \text{ in } \Bbb{Z}.$ 
+Given integrers $a,b > 0,\gcd(a,b):= \text{ largest } d>0 \text{ such that } d|a, d|b \text{ in } \Bbb{Z}.$ 
 </div>
 ## Complexity of elementary arithmetic operations
 Note: We know the computer processes and stores information in binary digits, so our input for any natural number $(a)_{10}$ will be in binary, so it will have $[\log_2(a)]$ many digits. 
@@ -149,7 +149,7 @@ Note that the above would be of the form $$\frac{rz+s}{tz+u}, r,t,u,s,\in \Bbb{Z
 For this, we will induct on $n$. For $n=1$ it is true. Then consider $z'=\frac{a_nz+1}{z}$. Then by induction, we get $$\frac{p_{n-1}z'+p_{n-2}}{q_{n-1}z'+q_{n-2}}=\frac{p_{n-1}(a_nz+1)+p_{n-2}z}{q_{n-1}(a_nz+1)+q_{n-2}z}$$ $$=\frac{p_nz+p_{n-1}}{q_nz+q_{n-1}}.$$
 </div>
 
-How good a rational approximation can one get to a given real number $\alpha$? One trivial rational approximation to $\alpha$ is a number $\frac{a}{q}$ with $$\left| \alpha - \frac{a}{q}\right| \leq \frac{1}{2q},$$ (for any $q$ we can simply choose $a \in \Bbb{Z}$ at a distance at most $1/2$ from $q\alpha$)
+How good a rational approximation can one get to a given real number $\alpha$? One trivial rational approximation to $\alpha$ is a number $\frac{a}{q}$ with $$\mid\alpha - \frac{a}{q}\mid \leq \frac{1}{2q},$$ (for any $q$ we can simply choose $a \in \Bbb{Z}$ at a distance at most $1/2$ from $q\alpha$)
 
 <div class='theorem'>[Dirichlet's Theorem]
 For every $\alpha \in \Bbb{R}$, either $\alpha$ is rational, or else there are infinitely many distinct rational numbers $\frac{a}{q}$ such that 
@@ -162,6 +162,6 @@ $$ \left| \alpha - \frac{a}{q}\right| < \frac{1}{qQ}.$$
 </div>
 <div class='proof'>
 
-If we show that there is some $q$ with $q \alpha$ closer than $\frac{1}{Q}$ to some integer, then we can use that integer as our $a$ and be done. Consider $\{0\mod 1, \alpha\mod 1, \dots Q\alpha \mod 1\}$. This is an $Q +1$ element set lying in the interval $[0,1)$. There must be two in one of the $Q$ intervals $\left[\frac{i-1}{Q}, \frac{i}{Q}\right)$, $i \in \{1, \dots, Q\}$. Hence there exist $r,s$ such that $$0 \leq [s\alpha \pmod 1] - [r\alpha \pmod 1] = (s - r)\alpha \mod 1 < \frac{1}{Q},$$ viewed as an element of $[0,1)$. Then there is an integer, namely that integer directly below $(s-r)\alpha$, such that $\left|(s - r)\alpha - a\right| $ &lt $ \frac{1}{Q}$. Our $q$ is $s-r$.
+If we show that there is some $q$ with $q \alpha$ closer than $\frac{1}{Q}$ to some integer, then we can use that integer as our $a$ and be done. Consider $\{0\mod 1, \alpha\mod 1, \dots Q\alpha \mod 1\}$. This is an $Q +1$ element set lying in the interval $[0,1)$. There must be two in one of the $Q$ intervals $\left[\frac{i-1}{Q}, \frac{i}{Q}\right)$, $i \in \{1, \dots, Q\}$. Hence there exist $r,s$ such that $$0 \leq [s\alpha \pmod 1] - [r\alpha \pmod 1] = (s - r)\alpha \mod 1 < \frac{1}{Q},$$ viewed as an element of $[0,1)$. Then there is an integer, namely that integer directly below $(s-r)\alpha$, such that $\left|(s - r)\alpha - a\right| < \frac{1}{Q}$. Our $q$ is $s-r$.
 </div>
-We claim that theorem $2.2$ proves theorem $2.1$.
+We claim that theorem $2.2$ proves theorem $2.1$.  
