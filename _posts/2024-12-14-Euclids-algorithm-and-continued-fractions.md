@@ -199,10 +199,10 @@ does not change sign.
 </div>
 Hence, L must be between  $\frac{p_{n+1}}{q_{n+1}}$ and $\frac{p_{n-1}}{q_{n-1}}$, both of which are at least $\alpha$. Hence $L$ is at least $\alpha$. If $\frac{r}{s}$ is strictly closer to $\alpha$ than both $c_n$ and $L$, then $\frac{r}{s} \in I = (c_n, L)$. For contradiction, suppose $0 $ less than  $s \leq Q$. Then 
 
-$$\mid \frac{r}{s} - \frac{p_n}{q_n}\mid \geq \frac{1}{s q_n},$$
- because $\frac{r}{s} \neq \frac{p_n}{q_n}$, and similarly 
- $$\mid \frac{r}{s} - L\mid \geq \frac{1}{s (t q_n + q_{n-1})}.$$
-Observe that $\mid I\mid =\mid\frac{p_n}{q_n} - \frac{t p_n + p_{n-1}}{tq_n + q_{n-1}}\mid = \frac{1}{{q_n}(t q_n + q_{n-1})}$.
+Then $$|I| = \frac{1}{{q_n}(t q_n + q_{n-1})} \geq \frac{1}{s (t q_n + q_{n-1})} + \frac{1}{s q_n} = \frac{1}{s}(\frac{1}{t q_{n} + q_{n-1}} + \frac{1}{q_n}) =\frac{1}{s}( \frac{t q_{n} + q_{n-1} + q_n}{q_n(t q_{n} + q_{n-1})}). $$
+So $s \geq (t +1) q_n + q_{n-1} > Q$, a contradiction. 
+
+
 
 <div class='remark'> 
  So in  the last line only, we used that $(t+1)q_n+q_{n-1}$  less than $Q$.
