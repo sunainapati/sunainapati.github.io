@@ -199,10 +199,11 @@ does not change sign.
 </div>
 Hence, L must be between  $\frac{p_{n+1}}{q_{n+1}}$ and $\frac{p_{n-1}}{q_{n-1}}$, both of which are at least $\alpha$. Hence $L$ is at least $\alpha$. If $\frac{r}{s}$ is strictly closer to $\alpha$ than both $c_n$ and $L$, then $\frac{r}{s} \in I = (c_n, L)$. For contradiction, suppose $0 $ less than  $s \leq Q$. Then 
 
+<div class='remark'> 
+ So in  the last line only, we used that $(t+1)q_n+q_{n-1}$  less than $Q$.
+</div>
 
 
-We saw in the proof that if $n$ is even, $\alpha \in (c_n, L)$, and if $n$ is odd, $\alpha \in (L, c_n)$. Further, the interval has length exactly $\frac{1}{{q_n}(t q_n + q_{n-1})}$. Then $|c_n - \alpha| \leq \frac{1}{{q_n}(t q_n + q_{n-1})} \leq \frac{1}{q_n q_{n-1}}.$
- We know that one of $\frac{a}{q} = c_n$ and $\frac{a}{q} = L$ have $|\frac{a}{q} - \alpha| \leq \frac{1}{qQ}$. Then we must have that $|(c_n, L)| \geq |\frac{a}{q} - \alpha|$ Hence $|c_n - \alpha| \leq \frac{1}{{q_n}(t q_n + q_{n-1})} \leq \frac{1}{q_n q_{n-1}}$.
  
 As we noted before, $q_n$ increases monotonically until $n = N$. As $\frac{a}{b}$ is the best approximation with denominator at most $Q$ for any $Q \geq b$, we cannot have $q_n $ greater  than $ b$ for any $n$. If so, then $q_{n+1} $ greater than $  b$ as well. Either $L$ or $\frac{p_{n+1}}{q_{n+1}}$ would at least as good an approximation as $\frac{a}{b}$ with denominator at most $q_{n+1}$. For any $t $ greater than $ 0$, $tq_{n+1}  + q_{n} $ greater than $q_{n+1}$, so $t=0$. Then $L = \frac{p_{n}}{q_{n}}$. This is impossible, because $\frac{p_n}{q_n}$ and $\frac{p_{n+1}}{q_{n+1}}$ are reduced and therefore neither are equal to $\frac{a}{b}$. This also applies that $N$ exists for $\alpha$ if and only if $\alpha$ is rational., i.e. the continued fraction representation of $\alpha$ terminates iff $\alpha$ is rational.
 
