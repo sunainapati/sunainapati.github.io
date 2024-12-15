@@ -197,7 +197,7 @@ q_{n} & q_{n-1}  \\
 does not change sign.
 </div>
 </div>
- 
+Hence, L must be between  $\frac{p_{n+1}}{q_{n+1}}$ and $\frac{p_{n-1}}{q_{n-1}}$, both of which are at least $\alpha$. Hence $L$ is at least $\alpha$. If $\frac{r}{s}$ is strictly closer to $\alpha$ than both $c_n$ and $L$, then $\frac{r}{s} \in I = (c_n, L)$. For contradiction, suppose $0 $ less than  $s \leq Q$. Then 
 
 
 ## Running time
