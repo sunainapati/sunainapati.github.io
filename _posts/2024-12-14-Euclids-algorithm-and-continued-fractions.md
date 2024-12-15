@@ -197,12 +197,9 @@ q_{n} & q_{n-1}  \\
 does not change sign.
 </div>
 </div>
-Hence, L must be between  $\frac{p_{n+1}}{q_{n+1}}$ and $\frac{p_{n-1}}{q_{n-1}}$, both of which are at least $\alpha$. Hence $L$ is at least $\alpha$. If $\frac{r}{s}$ is strictly closer to $\alpha$ than both $c_n$ and $L$, then $\frac{r}{s} \in I = (c_n, L)$. For contradiction, suppose $0 $ less than  $s \leq Q$. Then 
+Hence, L must be between  $\frac{p_{n+1}}{q_{n+1}}$ and $\frac{p_{n-1}}{q_{n-1}}$, both of which are at least $\alpha$. Hence $L$ is at least $\alpha$. If $\frac{r}{s}$ is strictly closer to $\alpha$ than both $c_n$ and $L$, then $\frac{r}{s} \in I = (c_n, L)$. For contradiction, suppose $0 $ less than  $s \leq Q$. 
 
-Then $$|I| = \frac{1}{{q_n}(t q_n + q_{n-1})} \geq \frac{1}{s (t q_n + q_{n-1})} + \frac{1}{s q_n} = \frac{1}{s}(\frac{1}{t q_{n} + q_{n-1}} + \frac{1}{q_n}) =\frac{1}{s}( \frac{t q_{n} + q_{n-1} + q_n}{q_n(t q_{n} + q_{n-1})}). $$
-So $s \geq (t +1) q_n + q_{n-1} > Q$, a contradiction. 
-
-
+We will ask the readers to figure out the ending. ( The full proof is in the notes).
 
 <div class='remark'> 
  So in  the last line only, we used that $(t+1)q_n+q_{n-1}$  less than $Q$.
