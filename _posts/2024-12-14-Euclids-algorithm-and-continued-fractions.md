@@ -216,7 +216,7 @@ We saw in the proof that if $n$ is even, $\alpha \in (c_n, L)$, and if $n$ is od
 
 As we noted before, $q_n$ increases monotonically until $n = N$. As $\frac{a}{b}$ is the best approximation with denominator at most $Q$ for any $Q \geq b$, we cannot have $q_n > b$ for any $n$. If so, then $q_{n+1} >  b$ as well. Either $L$ or $\frac{p_{n+1}}{q_{n+1}}$ would at least as good an approximation as $\frac{a}{b}$ with denominator at most $q_{n+1}$. For any $t > 0$, $tq_{n+1}  + q_{n} > q_{n+1}$, so $t=0$. Then $L = \frac{p_{n}}{q_{n}}$. This is impossible, because $\frac{p_n}{q_n}$ and $\frac{p_{n+1}}{q_{n+1}}$ are reduced and therefore neither are equal to $\frac{a}{b}$. This also applies that $N$ exists for $\alpha$ if and only if $\alpha$ is rational., i.e. the continued fraction representation of $\alpha$ terminates iff $\alpha$ is rational.
 
-
+ 
  
 
 
