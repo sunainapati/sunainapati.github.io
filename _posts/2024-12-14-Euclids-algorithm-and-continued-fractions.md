@@ -199,6 +199,8 @@ does not change sign.
 </div>
 Hence, L must be between  $\frac{p_{n+1}}{q_{n+1}}$ and $\frac{p_{n-1}}{q_{n-1}}$, both of which are at least $\alpha$. Hence $L$ is at least $\alpha$. If $\frac{r}{s}$ is strictly closer to $\alpha$ than both $c_n$ and $L$, then $\frac{r}{s} \in I = (c_n, L)$. For contradiction, suppose $0 $ less than  $s \leq Q$. Then 
 
+As we noted before, $q_n$ increases monotonically until $n = N$. As $\frac{a}{b}$ is the best approximation with denominator at most $Q$ for any $Q \geq b$, we cannot have $q_n $ greater  than $ b$ for any $n$. If so, then $q_{n+1} $ greater than $  b$ as well. Either $L$ or $\frac{p_{n+1}}{q_{n+1}}$ would at least as good an approximation as $\frac{a}{b}$ with denominator at most $q_{n+1}$. For any $t $ greater than $ 0$, $tq_{n+1}  + q_{n} $ greater than $q_{n+1}$, so $t=0$. Then $L = \frac{p_{n}}{q_{n}}$. This is impossible, because $\frac{p_n}{q_n}$ and $\frac{p_{n+1}}{q_{n+1}}$ are reduced and therefore neither are equal to $\frac{a}{b}$. This also applies that $N$ exists for $\alpha$ if and only if $\alpha$ is rational., i.e. the continued fraction representation of $\alpha$ terminates iff $\alpha$ is rational.
+
 
 ## Running time
 It will be of use to bound $p_n$ and $q_n$. We already know that $q_n \leq b$. From Remark, we know that $|p_n  - q_n\frac{a}{b}| \leq \frac{1}{q_{n-1}}$. Hence $|p_n| \leq |\frac{q_n}{b}| |a| + \frac{1}{q_{n-1}} = O(a)$.
