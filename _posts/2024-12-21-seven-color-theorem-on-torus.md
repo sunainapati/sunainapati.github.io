@@ -10,7 +10,7 @@ I stumbled across this while watching [YouTube](https://www.youtube.com/watch?v=
 * A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
 {:toc}
 
-# four color theorem 
+# Four color theorem 
 We know about four color theorem, which states any planar graph is four-colorable ( vertex). Hence, by considering the dual of the graph, we get that no more than four colors are required to color map on a plane. 
 
 # What about maps on torus?
