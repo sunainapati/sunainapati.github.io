@@ -20,13 +20,13 @@ There is an analogus version for maps on torus.
 <div class='definition'>
 A ring torus is homeomorphic ( isomorphism, continuos inverse) to cartesian product of two circles ( $S^1\times S^1$). It has genus $1$.
 </div>
-![alt text](http://sunainapati.github.io/assets/Screenshot_20241221_084023_Samsung Notes.jpg)
+![alt text](http://sunainapati.github.io/assets/Screenshot_20241221_084023_SamsungNotes.jpg)
 
 <div class='theorem'> 
 We only need 7 colors to color a graph on torus 
 </div>
 A conversion is needed:
-![alt text](sunainapati.github.io/assets/Screenshot_20241221_084044_Samsung Notes.jpg)
+![alt text](sunainapati.github.io/assets/Screenshot_20241221_084044_SamsungNotes.jpg)
 
 We consider the surfaces as vertices. There is an edge iff the two surfaces are neighbours ( I mean regions). Note that this graph is connected. 
 
@@ -37,7 +37,7 @@ $$V-E+F\ge 2-2g= \chi$$ where $g$ is the number of holes in polyhedron.
 </div>
 Note that this is simply induction on planar case. 
 
-![alt text](sunainapati.github.io/assets/Screenshot_20241221_084059_Samsung Notes.jpg)
+![alt text](sunainapati.github.io/assets/Screenshot_20241221_084059_SamsungNotes.jpg)
 
 
 <div class='proof'> [Main proof]
