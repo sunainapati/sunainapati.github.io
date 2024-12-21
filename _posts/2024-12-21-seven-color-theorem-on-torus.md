@@ -41,7 +41,7 @@ Note that this is simply induction on the planar case.
 
 
 <div class='proof'> [Main proof]
-Let the chromatic number of the graph be $\chi(G)=k$. Note that $\delta (G)\e k-1$. Note that $|V|\ge k$. Note that $3F\le 2E$.
+Let the chromatic number of the graph be $\chi(G)=k$. Note that $\delta (G)\ge k-1$. Note that $|V|\ge k$. Note that $3F\le 2E$.
 Note that $$V-E+F\ge \chi\implies V-\chi\ge E-F\implies V-\chi \ge \frac{E}{3}.$$
 Note that $$\frac{E}{3}\ge \frac{(k-1)V}{6}\implies 1-\frac{\chi}{V}\ge \frac{(k-1)}{6}\implies k^2-k\le 6(k-\chi).$$
 So $$0\ge k^2-7k+6\chi\implies k\le \lceil\frac{7+\sqrt{49-24\chi}}{2}\rceil.$$
