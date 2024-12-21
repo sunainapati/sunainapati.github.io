@@ -3,7 +3,7 @@ layout: post
 _title: Seven color theorem for torus
 tags : Graph-theory 
 ---
-I stumbled across this while watching (YouTube)[https://www.youtube.com/watch?v=tAEZlKVa3Ok]. 
+I stumbled across this while watching [YouTube][https://www.youtube.com/watch?v=tAEZlKVa3Ok]. 
 # Contents
 {:.no_toc}
 
