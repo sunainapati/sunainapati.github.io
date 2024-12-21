@@ -21,7 +21,9 @@ There is an analogous version for maps on torus.
 A ring torus is homeomorphic ( isomorphism, continuous inverse) to the cartesian product of two circles ( $S^1\times S^1$). It has genus $1$.
 </div>
 
+<p align="center">
 <img src="https://sunainapati.github.io/assets/Screenshot_20241221_084023_Samsung_Notes.jpg" width=50% height=50%>
+</p>
 
 <div class='theorem'> 
 We only need 7 colors to color a graph on the torus.
