@@ -37,7 +37,7 @@ $$V-E+F\ge 2-2g= \chi$$ where $g$ is the number of holes in polyhedron.
 </div>
 Note that this is simply induction on planar case. 
 
-![alt text](sunainapati.github.io/assets/Screenshot_20241221_084059_SamsungNotes.jpg)
+![alt text](assets/Screenshot_20241221_084059_SamsungNotes.jpg)
 
 
 <div class='proof'> [Main proof]
