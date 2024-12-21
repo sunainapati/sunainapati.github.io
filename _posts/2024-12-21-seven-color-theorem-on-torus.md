@@ -3,7 +3,7 @@ layout: post
 _title: Seven color theorem for torus
 tags : Graph-theory 
 ---
-We start with  four color theorem. 
+I stumbled across this while watching (YouTube)[https://www.youtube.com/watch?v=tAEZlKVa3Ok]. 
 # Contents
 {:.no_toc}
 
@@ -21,7 +21,7 @@ There is an analogous version for maps on torus.
 A ring torus is homeomorphic ( isomorphism, continuous inverse) to the cartesian product of two circles ( $S^1\times S^1$). It has genus $1$.
 </div>
 <p align="center">
-<a href="url"><img src="https://sunainapati.github.io/assets/Screenshot_20241221_084023_Samsung_Notes.jpg" align="center" height="300" width="300" ></a>
+<a href="url"><img src="https://sunainapati.github.io/assets/Screenshot_20241221_084023_Samsung_Notes.jpg" align="center" height="350" width="350" ></a>
 </p>
 
 <div class='theorem'> 
