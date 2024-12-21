@@ -42,7 +42,7 @@ Note that this is simply induction on the planar case.
 ![Alt text](https://sunainapati.github.io/assets/Screenshot_20241221_084059_Samsung_Notes.jpg) 
 
 
-<div class='proof'> [Main proof]
+<div class='proof'> 
 Let the chromatic number of the graph be $\chi(G)=k$. Note that $\delta (G)\ge k-1$. Note that $|V|\ge k$. Note that $3F\le 2E$.
 Note that $$V-E+F\ge \chi\implies V-\chi\ge E-F\implies V-\chi \ge \frac{E}{3}.$$
 Note that $$\frac{E}{3}\ge \frac{(k-1)V}{6}\implies 1-\frac{\chi}{V}\ge \frac{(k-1)}{6}\implies k^2-k\le 6(k-\chi).$$
@@ -51,5 +51,5 @@ So $$0\ge k^2-7k+6\chi\implies k\le \lceil\frac{7+\sqrt{49-24\chi}}{2}\rceil.$$
 
 # About Torus
 Torus has $\chi=2-2g=0$, so $k=7$.
-Moreover, in torus, the bound $7$ is minimum.
+Moreover, in torus, the bound $7$ is the minimum.
 
