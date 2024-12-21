@@ -21,7 +21,7 @@ There is an analogous version for maps on torus.
 A ring torus is homeomorphic ( isomorphism, continuous inverse) to the cartesian product of two circles ( $S^1\times S^1$). It has genus $1$.
 </div>
 
-<a href="url"><img src="https://sunainapati.github.io/assets/Screenshot_20241221_084023_Samsung_Notes.jpg" align="center" height="50" width="50" ></a>
+<a href="url"><img src="https://sunainapati.github.io/assets/Screenshot_20241221_084023_Samsung_Notes.jpg" align="center" height="300" width="300" ></a>
 
 <p align="center">
 <img src="https://sunainapati.github.io/assets/Screenshot_20241221_084023_Samsung_Notes.jpg" width=50% height=50%>
