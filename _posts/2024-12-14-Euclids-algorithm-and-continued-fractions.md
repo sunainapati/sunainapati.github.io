@@ -4,6 +4,12 @@ _title: Euclid's Algorithm and Continued Fractions
 tags : Algorithmic-Number-theory Number-theory
 ---
 
+# Contents
+{:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
+
 
 # Euclid's Algorithm and Continued Fractions
 I am following Professor Swastik's Algorithmic Number Theory course notes offered at Rudgerts in 2014. 
