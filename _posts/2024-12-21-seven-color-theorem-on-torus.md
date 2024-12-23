@@ -33,7 +33,7 @@ A conversion is needed:
 
 We consider the surfaces as vertices. There is an edge iff the two surfaces are neighbours ( I mean regions). Note that this graph is connected. 
 
-Note that since each edge borders atmost two faces and each face borders at least three edges $\implies 3F\ge 2E$.
+Note that since each edge borders atmost two faces and each face borders at least three edges $\implies 3F\le 2E$.
 
 <div class='theorem'> 
 $$V-E+F\ge 2-2g= \chi$$ where $g$ is the number of holes in polyhedron.
