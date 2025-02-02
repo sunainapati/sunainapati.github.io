@@ -3,7 +3,7 @@ layout: post
 _title: Cyclotomic Polynomials
 tags : Number-theory
 ---
-Just my notes on Cyclotomic polynomials. A pdf version is available [here]{https://sunainapati.github.io/cyclotomic.pdf}.
+Just my notes on Cyclotomic polynomials. A pdf version is available [here](https://sunainapati.github.io/cyclotomic.pdf).
 
 # Contents
 {:.no_toc}
@@ -13,14 +13,15 @@ Just my notes on Cyclotomic polynomials. A pdf version is available [here]{https
 
 # Introduction
  A lot of references have been used:
-- This [math StackExchange]{https://math.stackexchange.com/a/532977/736863} answer
-- [MIT lecture notes]{https://ocw.mit.edu/courses/18-781-theory-of-numbers-spring-2012/7312c3e8e2dbb9af9a1677425fc3a0e7_MIT18_781S12_lec12.pdf} 
+- This [math StackExchange](https://math.stackexchange.com/a/532977/736863) answer
+- [MIT lecture notes](https://ocw.mit.edu/courses/18-781-theory-of-numbers-spring-2012/7312c3e8e2dbb9af9a1677425fc3a0e7_MIT18_781S12_lec12.pdf)
 - Brett Porter's Cyclotomic polynomials, Ramprasad Saptarishi's scribed Computational Number theory lecture 23 and 24 
 - Evan Chen's modulo a prime.
 
 # Cylcotomic Polynomials 
 <div class='definition'>[primitive $n$-th roots of unity]
- For $n\geq 1$, the primitive $n$-th roots of unity are the $\omega\in\Bbb C$ such that $\omega^n=1$, and $\omega^k\neq1$ for $1\leq k< n$. More explicitly, these are given by
+ For $n\geq 1$, the primitive $n$-th roots of unity are the $\omega\in\Bbb C$ such that $\omega^n=1$, and $\omega^k\neq1$ for $1\leq k$ &lt $n$.  
+More explicitly, these are given by
 $$e^{\frac{2\pi ik}{n}},1\leq k\leq n, (k,n)=1.$$
 </div>
 
@@ -29,7 +30,7 @@ Note that there are precisely $\varphi(n)$ many primitive $n$-th roots of unity.
 <div class='definition'>
  The $n$-th cyclotomic polynomial $\Phi_n$ is defined by
 
-$$\Phi_n(X)\coloneqq\prod_j(X-\omega_j),$$
+$$\Phi_n(X):=\prod_j(X-\omega_j),$$
 
 where the product is taken over all primitive $n$-th roots of unity $\omega_j$.
 </div>
@@ -108,7 +109,7 @@ Note that $\Phi_n(x)>0$ for $x>1$. So done.
 Now we will see why we are dealing with cyclotomic polynomials. 
 <div class='definition'>
 Define
-$$\Phi_n(a,b)\coloneqq b^{\varphi(n)}\Phi_n\left(\frac ab\right).$$
+$$\Phi_n(a,b):=b^{\varphi(n)}\Phi_n\left(\frac ab\right).$$
 </div>
 Note that $\Phi_n(a,b)$ is an integer. 
 Moreover, 
@@ -167,12 +168,11 @@ If $G$ is a finite subgroup of the multiplicative group of a field, then $G$ sat
 # Roots of unity on Finite fields 
 <div class='theorem'>
  Let $K^{(n)}$ be splitting field of $x^n-1$. The set of all the roots be $E^{(n)}$. $K$ be field of char $p$. Then:
- \begin{itemize}
-  \item if $p\nmid n$ then $E^{(n)}$ is cyclic group of order $n$.
-  \item if $p\mid n\implies n=p^em,p\nmid m$ then $K^{(n)}=K^{(m)}, E^{(n)}=E^{(m)}$ and root of $x^n-1$ are $m$ elements each occuring with muliplicity $p^e$.
- \end{itemize}
 
+-  if $p\nmid n$ then $E^{(n)}$ is cyclic group of order $n$.
+-  if $p\mid n\implies n=p^em,p\nmid m$ then $K^{(n)}=K^{(m)}, E^{(n)}=E^{(m)}$ and root of $x^n-1$ are $m$ elements each occuring with muliplicity $p^e$.
 </div>
+
 <div class='proof'>
  The second part follows because $$x^n-1=x^{mp^e}-1=(x^m-1)^{p^e}$$ by frobinious map. 
  The first pat is true because of the following: 
@@ -186,16 +186,17 @@ If $G$ is a finite subgroup of the multiplicative group of a field, then $G$ sat
 <div class='theorem'>
  Let $K=\Bbb{F}_p$ and $(p,n)=1,d=\text{ord}_n(p)$, $p$ is prime.
  Then: 
- \begin{itemize}
-  \item $K^{(n)}$ is the spliting field of any irreducible factor of $\Phi_n(x)$
-  \item $[K^{(n)}:K]=d$
- \end{itemize}
+
+-  $K^{(n)}$ is the spliting field of any irreducible factor of $\Phi_n(x)$
+-  $[K^{(n)}:K]=d$
+</div> 
+
 <div class='proof'>
  Let $\zeta$ be one primitive root of $\Phi_n(x)$. Note that $$\zeta\in \Bbb{F}_{p^k}\iff \zeta^{p^k}=\zeta~~(\text{as all element of the field satisfy}~~x^{p^k}-x=0)$$$$\iff \zeta^{p^k-1}=1\iff n|p^k-1\iff p^k\equiv 1\mod n.$$
  Note that since $d=\text{ord}_n(p)\implies \zeta\in \Bbb{F}_{p^d} $ but no proper subfield of $ \Bbb{F}_{p^d}$. So the minimal polynomial of $\zeta$ has degree $d$. Same for other primitive roots. So the spliting field $K^{(n)}=\Bbb{F}_{p^d}$ and $[K^{(n)}:K]=d$. 
 </div>
 
-</div>
+
 
 
 Let $\zeta$ be a primitive- $n$ th root of unity. Note that $\zeta\in \Bbb{F}_p$ when $r=p-1$ as all the element of $\Bbb{F}_p$ are roots of $x^p-x$, hence all non zero elements are roots of $x^{p-1}-1$. Let $M(x)$ be the minimal polynomial of $\zeta$. 
