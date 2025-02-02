@@ -54,11 +54,12 @@ $$X^n-1=\prod_{d\mid n}\Phi_d(X).$$ So we also get that $$\sum_{d\mid n}\varphi(
   For $n\geq1$, $\Phi_n(X)$ has integer coefficients.
  </div>
 <div class='proof'>
-We induct. For $n=1$, we have $\Phi_1(x)=x-1\in\Bbb Z[x]$. Say $\Phi_k(x)\in\Bbb Z[x]$ for all $k< n$.
+We induct. For $n=1$, we have $\Phi_1(x)=x-1\in\Bbb Z[x]$. Say $\Phi_k(x)\in\Bbb Z[x]$ for all $k$< $n$.
 Note that $$x^n-1=\prod_{d\mid n}\Phi_d(x)=\Phi_n(x)\prod_{d\mid n, d\ne n}\Phi_d(x)=\Phi_n(x)p_n(x),$$ 
 where $p_n(x)=\prod_{d\mid n, d\ne n}\Phi_d(x)$. Then $p_n\in\Bbb Z[X]$ by induction.
 Now, we state a claim.
-\begin{claim}
+
+<div class='claim'> 
  If $$(x^n -1) =({\sum}^m_{i=1}{a_i{x^i}})({\sum}^l_{j=1}{b_j{x^i}}),$$ where ${\sum}^m_{i=1}{a_i{x^i}}\in{\bf{Z}[x]},$ then $b_j\in \Bbb{Q},\forall j$.
 </div>
 <div class='proof'>
@@ -66,9 +67,10 @@ Note that since $a_m\cdot b_l=1\implies b_l\in \Bbb{Q}$. Similarly we can show a
 </div>
 So, by the above claim, we get $\Phi_n(x)\in\Bbb{Q}[x]$. 
 Let $\alpha $ be the smallest positive rational such that $\alpha\Phi_n(x)\in\Bbb{Z}[x].$ Note that $\alpha$ must be an integer.
-Also, note that gcd of the coeffecients of polynomial $\alpha \Phi_n(x)=\Phi'_n(x)$ will be $1$. 
+Also, note that gcd of the coefficients of polynomial $\alpha \Phi_n(x)=\Phi'_n(x)$ will be $1$. 
+
 <div class='definition'>[Primitive Polynomial]
-Call an integer polynomial primitive if gcd of the coefficents is $1$.
+Call an integer polynomial primitive if gcd of the coefficients is $1$.
 </div>
 
 <div class='lemma'>
@@ -79,7 +81,6 @@ Let $p(x)q(x)=c_lx^l+\dots+ c_0$. Let $p(x)=b_mx^m+\dots +b_0, q(x)=a_nx^n=\dots
 Consider $c_j$. Since $$p|c_j\implies p|b_0a_j+b_1a_{j-1}+\dots b_ja_0\implies p|b_ja_0\implies p|a_0.$$ Similarly consider $c_{j+1}$. Since $$p|c_{j+1}\implies p|b_0a_{j+1}+\dots+b_{j}a_1+b_{j+1}a_0\implies p|a_1.$$ Continuing this process, we get that $p$ divides all the coefficients of $q(x)$, contradicting that it is primitive. 
 </div>
 Note that $\Phi'_n(x)$ and $p_n(x)$ are primitive. But note that $$\Phi'_n(x)\cdot p_n(x)=\alpha(x^n-1).$$ By above lemma, we should have $\alpha(x^n-1)$  to be primitive. Hence $|\alpha|$ is $1$. And so $\Phi_n(x)\in \Bbb{Z}[x]$.
-</div>
  
  Note that these polynomials are also irreducibles.
 <div class='lemma'>
@@ -213,7 +214,8 @@ We claim the following:
 <div class='remark'>
  This proof was in Professor Ramprasad's scribed notes. 
 </div>
-\section{ On primes dividing Cyclotomic polynomials}
+
+#  On primes dividing Cyclotomic polynomials
 <div class='theorem'>
  Let $p\nmid n$ and $m|n$. Then $\Phi_n(x)$ and $x^m-1$ has no common root modulo $p$.
 </div>
