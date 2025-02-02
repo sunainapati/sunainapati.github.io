@@ -81,8 +81,9 @@ Let $p(x)q(x)=c_lx^l+\dots+ c_0$. Let $p(x)=b_mx^m+\dots +b_0, q(x)=a_nx^n=\dots
 Consider $c_j$. Since $$p|c_j\implies p|b_0a_j+b_1a_{j-1}+\dots b_ja_0\implies p|b_ja_0\implies p|a_0.$$ Similarly consider $c_{j+1}$. Since $$p|c_{j+1}\implies p|b_0a_{j+1}+\dots+b_{j}a_1+b_{j+1}a_0\implies p|a_1.$$ Continuing this process, we get that $p$ divides all the coefficients of $q(x)$, contradicting that it is primitive. 
 </div>
 Note that $\Phi'_n(x)$ and $p_n(x)$ are primitive. But note that $$\Phi'_n(x)\cdot p_n(x)=\alpha(x^n-1).$$ By above lemma, we should have $\alpha(x^n-1)$  to be primitive. Hence $|\alpha|$ is $1$. And so $\Phi_n(x)\in \Bbb{Z}[x]$.
- 
- Note that these polynomials are also irreducibles.
+</div>
+
+Note that these polynomials are also irreducibles.
 <div class='lemma'>
  Let $p$ be a prime and $n\geq1$. Then
 
@@ -106,7 +107,9 @@ $$(x-1)^{\varphi(n)}<\lvert\Phi_n(x)\rvert< (x+1)^{\varphi(n)}.$$
 Note that $\Phi_n(x)>0$ for $x>1$. So done.
 </div>
 
+
 # Cyclotomic Polynomials for two variables 
+
 Now we will see why we are dealing with cyclotomic polynomials. 
 <div class='definition'>
 Define
