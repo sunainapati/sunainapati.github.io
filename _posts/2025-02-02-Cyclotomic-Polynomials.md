@@ -20,7 +20,7 @@ Just my notes on Cyclotomic polynomials. A pdf version is available [here](https
 
 # Cylcotomic Polynomials 
 <div class='definition'>[primitive $n$-th roots of unity]
- For $n\geq 1$, the primitive $n$-th roots of unity are the $\omega\in\Bbb C$ such that $\omega^n=1$, and $\omega^k\neq1$ for $1\leq k$ &lt $n$.  
+ For $n\geq 1$, the primitive $n$-th roots of unity are the $\omega\in\Bbb C$ such that $\omega^n=1$, and $\omega^k\neq1$ for $1\leq k$ < $n$.  
 More explicitly, these are given by
 $$e^{\frac{2\pi ik}{n}},1\leq k\leq n, (k,n)=1.$$
 </div>
