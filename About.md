@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Hi! I am Sunaina Pati. I am currently pursuing my BSc (Honours) in Mathematics and Computer Science at [Chennai Mathematical Institute](https://www.cmi.ac.in/). I am in my second year. I like reading about algebra, number theory and its application to Theoretical Computer science. I use this site to publish my workings in math and TCS, for example, sharing the lecture notes, some theorems which I found very fascinating, problem sets of classes/tutorials I took and notes on my current reading projects ( for now, I will upload my handwritten notes. I will TeXed it during my summer holidays) etc. 
+Hi! I am Sunaina Pati. I am currently pursuing my second year of BSc (Honours) in Mathematics and Computer Science at [Chennai Mathematical Institute](https://www.cmi.ac.in/). I like reading about algebra, number theory and its application to Theoretical Computer science. I use this site to publish my workings in math and TCS, for example, sharing the lecture notes, some theorems which I found very fascinating, problem sets of classes/tutorials I took and notes on my current reading projects ( for now, I will upload my handwritten notes. I will TeXed it during my summer holidays) etc. 
 
 # Contents
 {:.no_toc}
