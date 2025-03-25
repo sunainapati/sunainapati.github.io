@@ -16,7 +16,7 @@ I am extremely grateful that Awesomemath and the mathematical reflections team g
 # Introduction 
 This is a more refined and self-contained version of [Yan Sheng's blog post](https://angyansheng.github.io/blog/an-elementary-proof-of-zsigmondys-theorem), [Bart Michels's paper](https://math.stackexchange.com/questions/660585/elementary-proof-of-zsigmondys-theorem/662196#662196) and [this AoPS post](https://artofproblemsolving.com/community/c1803h1043308_zsigmondys_theorem). 
 
-Zsigmondy's Theorem states that if \( a > b \geq 1 \) are coprime integers and \( n \geq 2 \), then there exists a prime divisor of \( a^n - b^n \) that does not divide \( a^k - b^k \) for all 1 \leq k < n, except when \( n = 2 \) and \( a + b \) is a power of \( 2 \) or when \( (a, b, n) = (2,1,6) \).
+Zsigmondy's Theorem states that if $a > b \geq 1$ are coprime integers and $n \geq 2$, then there exists a prime divisor of $a^n - b^n $ that does not divide $a^k - b^k$ for all $1 \leq k < n$, except when $ n = 2 $ and $ a + b $ is a power of $ 2 $ or when $(a, b, n) = (2,1,6) $.
 
 In this document, we will go through the proof of this theorem and some applications of this theorem in math olympiad problems.
 
