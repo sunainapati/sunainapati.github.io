@@ -317,7 +317,7 @@ We use zsigmondy on $2n$. We know there exist primitive prime divisor $p$ of $a^
  Let $p_1,p_2,\ldots,p_n$ be distinct primes greater than $3$. Show that $2^{p_1p_2\cdots p_n}+1$ has at least $4^n$ divisors.
 </div>
 
-**Walkthrough:** 
+**Walkthrough**: 
 
 - You would like to use zsigmondy here, but how?
 - Take an arbitrary $d\mid p_1p_2\dots p_n$
@@ -331,7 +331,7 @@ Take an arbitrary $d\mid p_1p_2\dots p_n$. Note that $2^d+1\mid 2^{p_1 p_2... p_
  Find all triplets of positive integers $(a,m,n)$ such that $ a^m + 1 \mid (a + 1)^n$.
 </div>
     
-**Walkthrough** 
+**Walkthrough**: 
 - It's just Zsigmondy
 
 <div class="proof">
@@ -341,7 +341,7 @@ Take an arbitrary $d\mid p_1p_2\dots p_n$. Note that $2^d+1\mid 2^{p_1 p_2... p_
  Does there exist a positive integer $ n$ such that $ n$ has exactly 2000 prime divisors and $ n$ divides $ 2^n + 1$?
 </div>
 
-**Walkthrough:**
+**Walkthrough**:
 
 -  I will spoil it for you! Answer is yes.
 -  Start with $9$ and then inductively find the next primes using Zsigmondy's theorem.
@@ -355,7 +355,7 @@ Take an arbitrary $d\mid p_1p_2\dots p_n$. Note that $2^d+1\mid 2^{p_1 p_2... p_
  Find all positive integers $a,n\ge1$ such that $\forall$ primes $p$ dividing $a^n-1$, there exists a positive integer $m<n$ such that $p\mid a^m-1$.
 </div>
      
-**Walkthrough:**
+**Walkthrough**:
 - Check the edge cases of Zsigmondy!
 
 One obvious solution is $(a,n)=(1,n)$. Assume $a>1$.
