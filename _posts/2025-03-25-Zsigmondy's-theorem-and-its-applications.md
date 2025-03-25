@@ -4,7 +4,9 @@ _title: Zsigmondy’s Theorem and its Applications
 tags : Number-theory Olympiad-Number-theory
 ---
 I am very happy to share with everyone that my article on has appeared in [Mathematical Reflections - Issue 2 of 2025](https://www.awesomemath.org/mathematical-reflections/archives/). Here is the [pdf](https://www.awesomemath.org/wp-pdf-files/math-reflections/mr-2025-02/mr_2_2025_zsigmondys_theorem.pdf). 
-Mathematical Reflections is a free online journal run by Awesomemath aimed primarily at high school students, undergraduates, and everyone interested in mathematics. Through articles and problems, they seek to expose readers to a variety of interesting topics that are fully accessible to the target audience. To the people who have heard the name Titu Andrescu ( or Titu's inequality), Awesomemath was founded by him. 
+Mathematical Reflections is a free online journal run by Awesomemath aimed primarily at high school students, undergraduates, and everyone interested in mathematics. Through articles and problems, they seek to expose readers to a variety of interesting topics that are fully accessible to the target audience. To the people who have heard the name Titu Andreescu ( or Titu's inequality), Awesomemath was founded by him. 
+
+I am extremely grateful that Awesomemath and the mathematical reflections team gave me this opportunity :). I have made sure to make the article as self-contained as possible. The only prerequisite is comfort with modular arithmetic. I hope this article helps students interested in olympiad math and also in higher math.
 # Contents
 {:.no_toc}
 
