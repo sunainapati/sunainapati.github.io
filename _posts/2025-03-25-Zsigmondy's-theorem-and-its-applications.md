@@ -264,7 +264,7 @@ Suppose that  $a^n-b^n$ has no primitive prime divisors.
 
 If $\Phi_n(a,b)>1$. Let $p$ be a prime factor of $\Phi_n(a,b)$. Then $p\mid a^n-b^n$, so there exists a minimal $1\leq k< n$ such that $p\mid a^k-b^k$. ( since we assumed that $a^n-b^n$ has no primitive prime divisors). 
 
-**Case 1**: If $p\geq3$, since $k<n$ and $p|\Phi_n(a,b)$. We get that $v_p(\Phi_n(a,b))=1$ by the lemma 7.1. So $n$ is of the forms $p^{\beta}k$.We also know that $k|n$ and $k|p-1\implies k<p$. So note that $p$ is the largest prime factor of $n$. Suppose $q\ne p$ divides $\Phi_n(a,b)$. By similar reasoning, we get that $q$ is the largest prime factor of $n$. This is a contradiction, as we established $p$ as the largest prime factor. Hence $\Phi_n(a,b)$ is $p$. 
+**Case 1**: If $p\geq3$, since $k<n$ and $p\mid\Phi_n(a,b)$. We get that $v_p(\Phi_n(a,b))=1$ by the lemma 7.1. So $n$ is of the forms $p^{\beta}k$.We also know that $k\mid n$ and $k\mid p-1\implies k<p$. So note that $p$ is the largest prime factor of $n$. Suppose $q\ne p$ divides $\Phi_n(a,b)$. By similar reasoning, we get that $q$ is the largest prime factor of $n$. This is a contradiction, as we established $p$ as the largest prime factor. Hence $\Phi_n(a,b)$ is $p$. 
 
 **Case 2**: If $p=2$ then $n\geq3$ is a power of $2$, so $4\mid n$ implies ( as $n\ge3$). So 
 $$\Phi_n(a,b)=a^{n/2}+b^{n/2}\equiv2\pmod 4.$$
