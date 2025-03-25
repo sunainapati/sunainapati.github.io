@@ -227,7 +227,7 @@ v_p(a^k-b^k)&=v_p(a^n-b^n)=v_p(\Phi_n(a,b))+\sum_{d\mid n,\,d\neq n}v_p(\Phi_d(a
 &=v_p(\Phi_n(a,b))
 \end{aligned}$$
 
-Note that $$\sum_{d\mid n,d\neq n}v_p(\Phi_d(a,b))=0$$ because of the minimality of $k$ we assumes. If $v_p(\Phi_d(a,b))>0$ for some $d$, then $p|a^d-b^d$. Not possible.
+Note that $$\sum_{d\mid n,d\neq n}v_p(\Phi_d(a,b))=0$$ because of the minimality of $k$ we assumes. If $v_p(\Phi_d(a,b))>0$ for some $d$, then $p\mid a^d-b^d$. Not possible.
 
 So this proves the first statement.
 
