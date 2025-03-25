@@ -18,7 +18,7 @@ description: "Trying to learn some theoretical cs" # This will show up in places
 #########################################################################################
 theme: "minima"
 
-rss: rss
+# rss: rss
 
 kramdown:
   syntax_highlighter_opts:
