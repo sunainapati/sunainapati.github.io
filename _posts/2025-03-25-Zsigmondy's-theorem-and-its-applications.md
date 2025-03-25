@@ -226,12 +226,12 @@ $$\begin{aligned}
 v_p(a^k-b^k)&=v_p(a^n-b^n)=v_p(\Phi_n(a,b))+\sum_{d\mid n,\,d\neq n}v_p(\Phi_d(a,b))\\
 &=v_p(\Phi_n(a,b))
 \end{aligned}$$
+
 Note that $$\sum_{d\mid n,\,d\neq n}v_p(\Phi_d(a,b))=0$$ because of the minimality of $k$ we assumes. If $v_p(\Phi_d(a,b))>0$ for some $d$, then $p|a^d-b^d$. Not possible.
 
 So this proves the first statement.
 
-**Case 2**: 
-For $n=p^{\beta}k$ then we get
+**Case 2**: For $n=p^{\beta}k$ then we get
 
 $$\begin{aligned}
 v_p(a^k-b^k)+\beta&=v_p(a^{p^\beta k}-b^{p^\beta k})\\
@@ -239,14 +239,14 @@ v_p(a^k-b^k)+\beta&=v_p(a^{p^\beta k}-b^{p^\beta k})\\
 &=\sum_{d\mid k}v_p(\Phi_d(a,b))+ v_p(\Phi_{pk}(a,b))+v_p(\Phi_{p^2k}(a,b))+\dots + v_p(\Phi_{p^{\beta}k}(a,b))\\
 &=v_p(a^k-b^k)+ v_p(\Phi_{pk}(a,b))+v_p(\Phi_{p^2k}(a,b))+\dots + v_p(\Phi_{p^{\beta}k}(a,b))
 \end{aligned}$$
+
 $$\implies \beta=v_p(\Phi_{pk}(a,b))+v_p(\Phi_{p^2k}(a,b))+\dots + v_p(\Phi_{p^{\beta}k}(a,b)).$$
 So, this implies $v_p(\Phi_{p^{j}k}(a,b))=1$.
 
-**Case 3.1**:
- If $k\nmid n$, then $ p\nmid a^n-b^n$. So $p\nmid \Phi_n(a,b)\implies v_p(\Phi_n(a,b))=0$.
+**Case 3.1**: If $k\nmid n$, then $ p\nmid a^n-b^n$. So $p\nmid \Phi_n(a,b)\implies v_p(\Phi_n(a,b))=0$.
 
-**Case 3.2**:  
-If $k\mid n$, then $n=p^\beta mk$ for some $p\nmid m$ (so $\beta=v_p(\frac nk)$). We have dealt with the case $m=1$. If $m>1$ then $\Phi_n(a,b)$ is a factor of
+
+**Case 3.2**: If $k\mid n$, then $n=p^\beta mk$ for some $p\nmid m$ (so $\beta=v_p(\frac nk)$). We have dealt with the case $m=1$. If $m>1$ then $\Phi_n(a,b)$ is a factor of
 
 $$\frac{\prod_{d\mid n}\Phi_d(a,b)}{\prod_{d\mid p^\beta k}\Phi_d(a,b)}=\frac{a^n-b^n}{a^{p^\beta k}-b^{p^\beta k}}.$$
 
