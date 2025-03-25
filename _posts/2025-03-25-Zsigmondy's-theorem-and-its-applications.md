@@ -15,10 +15,10 @@ Mathematical Reflections is a free online journal run by Awesomemath aimed prima
 This is a more refined and self-contained version of [Yan Sheng's blog post](https://angyansheng.github.io/blog/an-elementary-proof-of-zsigmondys-theorem), [Bart Michels's paper](https://math.stackexchange.com/questions/660585/elementary-proof-of-zsigmondys-theorem/662196#662196) and [this AoPS post](https://artofproblemsolving.com/community/c1803h1043308_zsigmondys_theorem). 
 
 Zsigmondy's Theorem states that if \( a > b \geq 1 \) are coprime integers and \( n \geq 2 \), then there exists a prime divisor of \( a^n - b^n \) that does not divide \( a^k - b^k \) for all \( 1 \leq k < n \), except in the following cases:
-\begin{itemize}
-    \item \( n = 2 \) and \( a + b \) is a power of \( 2 \),
-    \item \( (a, b, n) = (2,1,6) \).
-\end{itemize}
+
+-  \( n = 2 \) and \( a + b \) is a power of \( 2 \),
+- \( (a, b, n) = (2,1,6) \).
+
 In this document, we will go through the proof of this theorem and some applications of this theorem in math olympiad problems.
 
 # Zsigmondy's Theorem
@@ -33,7 +33,7 @@ Zsigmondy's Theorem states that if \( a > b \geq 1 \) are coprime integers and \
  Consider $(a,b,n)=(4,2,3)$. Then $4^3-2^3=56, 4^2-2^2=12, 4^1-2^1=2$. So one such nice prime would be $7$. 
 </div>
 <div class="definition">
- We call such a prime divisor, a \textbf{primitive prime divisor} of $a^n-b^n$.
+ We call such a prime divisor, a primitive prime divisor of $a^n-b^n$.
 </div>
 
 We essentially want to find prime divisors of $a^n-b^n$ which LTE can handle to some extent.
@@ -103,7 +103,7 @@ Note that there are precisely $\varphi(n)$ many primitive $n$-th roots of unity.
 <div class="definition">
  The $n$-th cyclotomic polynomial $\Phi_n$ is defined by
 
-$$\Phi_n(X)\coloneqq\prod_j(X-\omega_j),$$
+$$\Phi_n(X):=\prod_j(X-\omega_j),$$
 
 where the product is taken over all primitive $n$-th roots of unity $\omega_j$.
 </div>
@@ -182,7 +182,7 @@ Note that $\Phi_n(x)>0$ for $x>1$. So done.
 Now we will see why we are dealing with cyclotomic polynomials. 
 <div class="definition">
 Define
-$$\Phi_n(a,b)\coloneqq b^{\varphi(n)}\Phi_n\left(\frac ab\right).$$
+$$\Phi_n(a,b):= b^{\varphi(n)}\Phi_n\left(\frac ab\right).$$
 </div>
 Note that $\Phi_n(a,b)$ is an integer. 
 Moreover, 
@@ -355,14 +355,13 @@ Take an arbitrary $d\mid p_1p_2\dots p_n$. Note that $2^d+1\mid 2^{p_1 p_2... p_
 **Walkthrough:**
 - Check the edge cases of Zsigmondy!
 
-<div class="proof">
 One obvious solution is $(a,n)=(1,n)$. Assume $a>1$.
   We just have to check the exceptions of Zsigmondy which are $(a,n)=(2,6), (2^k-1,2)$. 
-
+    
 **Case 1**: $(2,6)$ does not work by brute force checking
 
 **Case 2**: If $(a, n)=(2^k-1, 2)$. Then note $(2^k-1)^2-1=(2^k)(2^k-2)=(2^{k+1})(2^{k-1}-1)$. So the primes divide $2^{k-1}-1$ and $2$. So $m=1$ works as $(2^k-1)-1=2^k-2=2(2^{k-1}-1)$.
-</div>
+
 
 
 
