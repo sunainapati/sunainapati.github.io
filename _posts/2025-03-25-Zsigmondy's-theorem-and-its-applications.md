@@ -41,11 +41,11 @@ We essentially want to find prime divisors of $a^n-b^n$ which LTE can handle to 
 We state and prove LTE first.
 <div class="theorem">[LTE Lemma]
     Let \( p \) be a prime, and let \( x, y \in \mathbb{Z} \), with \( m \geq 1 \) such that \( x \equiv y \not\equiv 0 \pmod{p} \). Then:
-    - If \( p \geq 3 \), then  
+    If \( p \geq 3 \), then  
         \[
         v_p(x^m - y^m) = v_p(x - y) + v_p(m).
         \]
-    - If \( p = 2 \), then  
+    And If \( p = 2 \), then  
         \[
         v_2(x^m - y^m) =
         \begin{cases}  
@@ -177,7 +177,8 @@ $$(x-1)^{\varphi(n)}<\lvert\Phi_n(x)\rvert< (x+1)^{\varphi(n)}.$$
 
 Note that $\Phi_n(x)>0$ for $x>1$. So done.
 </div>
-\section{Cyclotomic Polynomials in Two Variables}
+
+# Cyclotomic Polynomials in Two Variables
 Now we will see why we are dealing with cyclotomic polynomials. 
 <div class="definition">
 Define
