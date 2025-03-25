@@ -210,7 +210,8 @@ $$(a-b)^{\varphi(n)}<\Phi_n(a,b)< (a+b)^{\varphi(n)}.$$
 Let $p\geq3$ be a prime such that $p\nmid a,b$. Let $n\geq1$, and let $k\geq1$ be minimal such that $p\mid a^k-b^k$. Then note that $k$ is order of $a/b$ modulo $p$. Thus, $k|p-1$.
 
 Moreover, note that $\Phi_n(a,b)|a^n-b^n$.  
-\section{LTE on Cyclotomic Polynomials}
+
+# LTE on Cyclotomic Polynomials
 <div class="theorem">
  Let $p\geq3$ be a prime such that $p\nmid a,b$. Let $n\geq1$, and let $k\geq1$ be minimal such that $p\mid a^k-b^k$. Then
 
