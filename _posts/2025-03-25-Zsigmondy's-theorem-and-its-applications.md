@@ -227,7 +227,7 @@ v_p(a^k-b^k)&=v_p(a^n-b^n)=v_p(\Phi_n(a,b))+\sum_{d\mid n,\,d\neq n}v_p(\Phi_d(a
 &=v_p(\Phi_n(a,b))
 \end{aligned}$$
 
-Note that $$\sum_{d\mid n,\,d\neq n}v_p(\Phi_d(a,b))=0$$ because of the minimality of $k$ we assumes. If $v_p(\Phi_d(a,b))>0$ for some $d$, then $p|a^d-b^d$. Not possible.
+Note that $$\sum_{d\mid n,d\neq n}v_p(\Phi_d(a,b))=0$$ because of the minimality of $k$ we assumes. If $v_p(\Phi_d(a,b))>0$ for some $d$, then $p|a^d-b^d$. Not possible.
 
 So this proves the first statement.
 
@@ -241,13 +241,13 @@ v_p(a^k-b^k)+\beta&=v_p(a^{p^\beta k}-b^{p^\beta k})\\
 \end{aligned}$$
 
 $$\implies \beta=v_p(\Phi_{pk}(a,b))+v_p(\Phi_{p^2k}(a,b))+\dots + v_p(\Phi_{p^{\beta}k}(a,b)).$$
+
 So, this implies $v_p(\Phi_{p^{j}k}(a,b))=1$.
 
 **Case 3.1**: If $k\nmid n$, then $ p\nmid a^n-b^n$. So $p\nmid \Phi_n(a,b)\implies v_p(\Phi_n(a,b))=0$.
 
 
 **Case 3.2**: If $k\mid n$, then $n=p^\beta mk$ for some $p\nmid m$ (so $\beta=v_p(\frac nk)$). We have dealt with the case $m=1$. If $m>1$ then $\Phi_n(a,b)$ is a factor of
-
 $$\frac{\prod_{d\mid n}\Phi_d(a,b)}{\prod_{d\mid p^\beta k}\Phi_d(a,b)}=\frac{a^n-b^n}{a^{p^\beta k}-b^{p^\beta k}}.$$
 
 But note that LTE gives $v_p(a^n-b^n)=v_p(a^{p^\beta k}-b^{p^\beta k})$, so $p$ does not divide $\Phi_n(a,b)$. So done.
@@ -264,11 +264,11 @@ Suppose that  $a^n-b^n$ has no primitive prime divisors.
 
 If $\Phi_n(a,b)>1$. Let $p$ be a prime factor of $\Phi_n(a,b)$. Then $p\mid a^n-b^n$, so there exists a minimal $1\leq k< n$ such that $p\mid a^k-b^k$. ( since we assumed that $a^n-b^n$ has no primitive prime divisors). 
 
-**Case 1**: If $p\geq3$, since $k<n$ and $p|\Phi_n(a,b)$. We get that $v_p(\Phi_n(a,b))=1$ by the lemma 7.1. So $n$ is of the forms $p^{\beta}k$.We also know that $k|n$ and $k|p-1\implies k<p$. So note that $p$ is the largest prime factor of $n$. Suppose $q\ne p$ divides $\Phi_n(a,b)$. By similar reasoning, we get that $q$ is the largest prime factor of $n$. This is a contradiction, as we established $p$ as the largest prime factor.
-Hence $\Phi_n(a,b)$ is $p$. 
+**Case 1**: If $p\geq3$, since $k<n$ and $p|\Phi_n(a,b)$. We get that $v_p(\Phi_n(a,b))=1$ by the lemma 7.1. So $n$ is of the forms $p^{\beta}k$.We also know that $k|n$ and $k|p-1\implies k<p$. So note that $p$ is the largest prime factor of $n$. Suppose $q\ne p$ divides $\Phi_n(a,b)$. By similar reasoning, we get that $q$ is the largest prime factor of $n$. This is a contradiction, as we established $p$ as the largest prime factor. Hence $\Phi_n(a,b)$ is $p$. 
 
 **Case 2**: If $p=2$ then $n\geq3$ is a power of $2$, so $4\mid n$ implies ( as $n\ge3$). So 
 $$\Phi_n(a,b)=a^{n/2}+b^{n/2}\equiv2\pmod 4.$$
+
 So $v_p(\Phi_n(a,b))=1$.
 
 So we get $$p\geq\Phi_n(a,b)\geq(a-b)^{\varphi(n)}\geq(a-b)^{p-1}.$$
