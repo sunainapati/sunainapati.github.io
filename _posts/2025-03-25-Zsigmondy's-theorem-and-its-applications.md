@@ -50,12 +50,14 @@ We state and prove LTE first.
         \end{cases}
         \]
 </div>
-<div class="proof">  We use induction on $v_p(n).$  We show for $v_p(n)=0, v_p(n)=1$ and then use induction.
+
+**Proof**: We use induction on $v_p(n).$  We show for $v_p(n)=0, v_p(n)=1$ and then use induction.
 
 - We show it for $v_p(n)=0.$ That is show $v_p(x^n-y^n)=v_p(x-y)$, for $v_p(n)=0$.
 To prove this, we will show,$$v_p\left(\frac{x^n-y^n}{x-y}\right)=v_p(x^{n-1}+yx^{n-2}+y^2x^{n-3}+\dots+y^{n-1})=0.$$
 As $x\equiv y\pmod p$,
 so,  $$x^{n-1}+yx^{n-2}+y^2x^{n-3}+\dots+y^{n-1}\equiv nx^{n-1}\pmod p. $$ And $p\nmid nx^{n-1}$
+
 - We show it for $v_p(n)=1.$ That is show $v_p(x^n-y^n)=v_p(x-y)+1$
 To show this is true, we will show, $$v_p\left(\frac{x^n-y^n}{x-y}\right)=v_p(x^{n-1}+yx^{n-2}+y^2x^{n-3}+\dots+y^{n-1})=1.$$
 As $x\equiv y\pmod p\implies x=y+pk$,
@@ -66,11 +68,12 @@ $$\equiv n\cdot y^{n-1}+pky^{n-2}\frac{(n-1)(n)}{2} \pmod {p^2}$$
 Since $(n,p^2)=p.$ Let $n'=n/p.$
 $$\equiv n'\cdot y^{n-1}+ky^{n-2}\frac{(n-1)(n)}{2} \pmod {p}.$$ We have $p$ odd, so above is equivalent to $$\equiv n'\cdot y^{n-1}n'\pmod {p}$$
 but $p \nmid n',y$. So done!
+
 - Let's assume it's true for $v_p=0,1,\dots, j-1.$ Now, we will show it's true for $v_p(n)=j.$
 Then let $n=p^j\cdot c.$
 Then $$v_p(x^n-y^n)=v_p(x^{p^j\cdot c}-y^{p^j\cdot c})=v_p((x^{p})^{p^{j-1}\cdot c}-(y^{p})^{p^{j-1}\cdot c})$$
 $$=v_p(x^p-y^p)+v_p(p^{j-1}\cdot c)=v_p(x-y)+1+j-1=v_p(x-y)+v_p(n)$$
-</div> 
+
 
 # The $n=2$ case 
 
@@ -81,7 +84,8 @@ $$=v_p(x^p-y^p)+v_p(p^{j-1}\cdot c)=v_p(x-y)+1+j-1=v_p(x-y)+v_p(n)$$
 If $a^2-b^2$ has no primitive divisor, then a prime $p$ which divides $a^2-b^2$ also divides $a-b$. Moreover, if $$p|a+b\implies p|a^2-b^2\implies p|a+b\implies p=2\implies a+b\text{ is a power of } 2.$$
 </div>
 So from now we assume that $n\geq3$.
-\section{ Cyclotomic Polynomials}
+
+# Cyclotomic Polynomials
 <div class="definition">[Primitive \( n \)-th Roots of Unity]
     For \( n \geq 1 \), the primitive \( n \)-th roots of unity are the numbers \( \omega \in \mathbb{C} \) such that
     \[
