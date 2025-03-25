@@ -22,11 +22,7 @@ In this document, we will go through the proof of this theorem and some applicat
 
 # Zsigmondy's Theorem
 <div class="theorem">
-Zsigmondy's Theorem states that if \( a > b \geq 1 \) are coprime integers and \( n \geq 2 \), then there exists a prime divisor of \( a^n - b^n \) that does not divide \( a^k - b^k \) for all \( 1 \leq k < n \ ), except in the following cases:
-
- - \( n = 2 \) and \( a + b \) is a power of \( 2 \),
- -  \( (a, b, n) = (2,1,6) \).
-
+Zsigmondy's Theorem states that if $a > b \geq 1$ are coprime integers and $n \geq 2$, then there exists a prime divisor of $a^n - b^n $ that does not divide $a^k - b^k$ for all $1 \leq k < n$, except when $ n = 2 $ and $ a + b $ is a power of $ 2 $ or when $(a, b, n) = (2,1,6) $.
 </div>
 <div class="example">
  Consider $(a,b,n)=(4,2,3)$. Then $4^3-2^3=56, 4^2-2^2=12, 4^1-2^1=2$. So one such nice prime would be $7$. 
