@@ -179,6 +179,7 @@ Note that $\Phi_n(x)>0$ for $x>1$. So done.
 </div>
 
 # Cyclotomic Polynomials in Two Variables
+
 Now we will see why we are dealing with cyclotomic polynomials. 
 <div class="definition">
 Define
@@ -215,7 +216,8 @@ Moreover, note that $\Phi_n(a,b)|a^n-b^n$.
 
 $$v_p(\Phi_n(a,b))=\begin{cases}v_p(a^k-b^k)&n=k\\1&n=p^\beta k,\,\beta\geq1\\0&\text{else}.\end{cases}$$
 </div>
-<div class="proof">
+
+**Proof**:
 We begin with cases. 
     
 **Case 1** : Note that if $k=n$ then $p\nmid a^n-b^n$. Hence
@@ -248,7 +250,7 @@ If $k\mid n$, then $n=p^\beta mk$ for some $p\nmid m$ (so $\beta=v_p(\frac nk)$)
 $$\frac{\prod_{d\mid n}\Phi_d(a,b)}{\prod_{d\mid p^\beta k}\Phi_d(a,b)}=\frac{a^n-b^n}{a^{p^\beta k}-b^{p^\beta k}}.$$
 
 But note that LTE gives $v_p(a^n-b^n)=v_p(a^{p^\beta k}-b^{p^\beta k})$, so $p$ does not divide $\Phi_n(a,b)$. So done.
-</div>
+
 <div class="theorem">[For $p=2$]
  Let $a,b$ be odd, and $n\geq1$. Then
 
