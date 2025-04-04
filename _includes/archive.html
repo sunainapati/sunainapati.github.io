@@ -1,17 +1,12 @@
 <h2>Archive</h2>
 
-{% capture temptags %}
-  {% for tag in site.tags %}
-    {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
-  {% endfor %}
-{% endcapture %}
-
-{% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
+{% assign sortedtags = site.tags | sort: 'last' | reverse %}
 
 <div style="display: flex; flex-wrap: wrap; gap: 0.5cm; margin-top: 1em;">
-  {% for temptag in sortedtemptags %}
-    {% assign tagitems = temptag | split: '#' %}
-    {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
+  {% for tag in sortedtags %}
+    {% assign tagname = tag[0] %}
+    {% assign posts = tag[1] %}
+    {% assign latest_post = posts | sort: 'date' | last %}
 
     <a href="/tag/{{ tagname }}" style="text-decoration: none;">
       <span style="
@@ -28,4 +23,3 @@
     </a>
   {% endfor %}
 </div>
-
