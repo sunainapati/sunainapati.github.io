@@ -3,6 +3,7 @@ layout: post
 _title: On application of Tychonoff Theorem
 tags : Topology Combinatorics Graph-theory
 ---
+Found this application really cool! I think I might read more about Combinatorial topology.
 <div class="theorem">
  If $X_{\alpha}$ is a compact space for each $\alpha$ then product $(\prod_{\alpha} X_{\alpha},\mathscr{T}_{\text{product}})$ is compact. 
 </div>
