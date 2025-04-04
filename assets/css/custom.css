@@ -1,29 +1,50 @@
 /* === Custom Theme Overrides for Minima === */
 
 /* Set background and default text color */
+/* Import the Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 body {
   background-color: #f6fff8;
   color: #000000;
-  font-family: inherit; /* Keeps Minima's default font */
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   color: #000000;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
 }
 
-/* Links: unvisited + visited */
-a:link,
-a:visited {
+/* Links */
+a {
   color: #073b4c;
   text-decoration: none;
 }
 
-a:hover,
-a:focus {
-  text-decoration: underline;
-  opacity: 0.85;
+a:visited {
+  color: #073b4c;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Code blocks (optional tweak for contrast) */
+code, pre {
+  background-color: #e0f7f4;
+  font-family: monospace;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* MathJax */
+mjx-container {
+  font-size: 1.05em;
+}
+
 
 /* Code blocks and inline code */
 code, pre {
