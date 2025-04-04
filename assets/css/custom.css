@@ -2,9 +2,9 @@
 
 /* Set background and default text color */
 body {
-  background-color: #fefae0;
+  background-color: #eaf4f4;
   color: #000000;
-  font-family: inherit; /* Retain Minima's default font */
+  font-family: inherit; /* Keeps Minima's default font */
 }
 
 /* Headings */
@@ -12,37 +12,40 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000;
 }
 
-/* Links */
-a {
-  color: #ccd5ae;
+/* Links: unvisited + visited */
+a:link,
+a:visited {
+  color: #073b4c;
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus {
   text-decoration: underline;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
-/* Code blocks and inline code (optional tweaks) */
+/* Code blocks and inline code */
 code, pre {
-  background-color: #f9f5d7;
+  background-color: #d9ecec;
   color: #000000;
 }
 
-/* Navigation Bar (if using default Minima layout) */
+/* Navigation Bar */
 .site-header {
-  background-color: #fefae0;
+  background-color: #eaf4f4;
   color: #000000;
-  border-bottom: 1px solid #dcdcdc;
+  border-bottom: 1px solid #ccc;
 }
 
-.site-title, .site-nav a {
+.site-title,
+.site-nav a {
   color: #000000;
 }
 
 /* Footer */
 .site-footer {
-  background-color: #fefae0;
+  background-color: #eaf4f4;
   color: #000000;
-  border-top: 1px solid #dcdcdc;
+  border-top: 1px solid #ccc;
 }
