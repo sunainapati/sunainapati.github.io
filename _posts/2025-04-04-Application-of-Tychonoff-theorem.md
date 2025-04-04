@@ -16,12 +16,14 @@ Let $G$ be any graph, and $k \in N$. If any finite subgraph of $G$ is $k$-colora
 Before proceeding further, we introduce a very nice characterization of compact sets. 
 <div class="lemma">
  A topological space $X$ is compact $\iff$ for every collection $\mathscr{C}$ of closed sets in $X$ having the Finite Intersection Property (FIP) the intersection, $\bigcap \mathscr{C}$ of all elements of $\mathscr{C}$ is nonempty.
+
+A collection of sets has the Finite Intersection Property if the intersection of every finite subcollection is non-empty.
 </div>
 <div class="proof">
  Assume $\cap_{\mathscr{C}_{\alpha}\in \mathscr{C}}\mathscr{C}_{\alpha}=\varnothing$, then for open subsets of $X$,  $A_\alpha=X\setminus \mathscr{C}_{\alpha}$ we get that $\cup_{\mathscr{C}_{\alpha}\in \mathscr{C}}A_\alpha=X$ by assumption. Since $X$ is compact, we get finite collection $\{\alpha_1,\ldots,\alpha_n\}$ such that $X=A_{\alpha_1}\cup\ldots\cup A_{\alpha_n}$. Again, take compliment, we get that $\mathscr{C}_{\alpha_1}\cap\ldots \cap\mathscr{C}_{\alpha_n}=\varnothing$. Contradicting the Finite Intersection Property. 
 
  For the other direction, suppose $X$ is not compact. Then $\exists$ a covering of $X$ by open sets such that there is no finite subcover. Say for open subsets $A_\alpha$ of $X$, we have $\cup_{{\alpha}\in I}A_\alpha=X$ such that it has no finite subcover. Define $\mathscr{C}_{\alpha}:= X\setminus A_{\alpha}$ and $\mathscr{C}:=\cup\mathscr{C}_{\alpha}:= \cup X\setminus A_{\alpha}$. 
- Consider any finite number of elements from $\mathscr{C}$, since there is no finite subcover, we get that taking a compliment, $\exists$ an element not in that particular finite subcover, taking the complement, we get contradiction to FIP. 
+ Consider any finite number of elements from $\mathscr{C}$, since there is no finite subcover, we get that taking a complement, $\exists$ an element not in that particular finite subcover, taking the complement, this contradicts the assumption that the collection has the Finite Intersection Property.
 </div>
 Now, for the actual proof, intuitively, the whole finite subgraph is $k$-colourable then so is the graph analogous to the FIP. So if we can somehow make the finite subgraphs closed and the space compact we are almost good, which is the intended solution. 
 <div class="proof">
