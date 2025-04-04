@@ -5,7 +5,9 @@ tags : Topology Combinatorics Graph-theory
 ---
 Found this application really cool! I think I might read more about Combinatorial topology.
 <div class="theorem">
- If $X_{\alpha}$ is a compact space for each $\alpha$ then product $(\prod_{\alpha} X_{\alpha},\mathscr{T}_{\text{product}})$ is compact. 
+{% raw %}
+If $X_{\alpha}$ is a compact space for each $\alpha$ then product $(\prod_{\alpha} X_{\alpha},\mathscr{T}_{\text{product}})$ is compact.
+{% endraw %}
 </div>
 How could an uncountable product be compact????!!!!! I would not prove it here because of the restricted space.
 <div class="problem">
