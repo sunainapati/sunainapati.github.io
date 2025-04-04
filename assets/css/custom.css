@@ -2,7 +2,7 @@
 
 /* Set background and default text color */
 body {
-  background-color: #eaf4f4;
+  background-color: #f6fff8;
   color: #000000;
   font-family: inherit; /* Keeps Minima's default font */
 }
@@ -27,13 +27,13 @@ a:focus {
 
 /* Code blocks and inline code */
 code, pre {
-  background-color: #d9ecec;
+  background-color: #e1f3ea;
   color: #000000;
 }
 
 /* Navigation Bar */
 .site-header {
-  background-color: #eaf4f4;
+  background-color: #f6fff8;
   color: #000000;
   border-bottom: 1px solid #ccc;
 }
@@ -45,7 +45,7 @@ code, pre {
 
 /* Footer */
 .site-footer {
-  background-color: #eaf4f4;
+  background-color: #f6fff8;
   color: #000000;
   border-top: 1px solid #ccc;
 }
