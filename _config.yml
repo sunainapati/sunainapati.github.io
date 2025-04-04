@@ -18,7 +18,8 @@ linkedin_username: "sunaina-pati-1788531bb"
 theme: "minima"
 
 minima:
-  skin: null
+sass:
+  style: compressed
 
 rss: rss
 
