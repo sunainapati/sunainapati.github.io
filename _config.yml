@@ -18,7 +18,7 @@ email: "sunaina.ug2023@cmi.ac.in"
 #########################################################################################
 theme: "minima"
 
-# rss: rss
+rss: rss
 
 kramdown:
   syntax_highlighter_opts:
