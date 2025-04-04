@@ -1,0 +1,48 @@
+/* === Custom Theme Overrides for Minima === */
+
+/* Set background and default text color */
+body {
+  background-color: #fefae0;
+  color: #000000;
+  font-family: inherit; /* Retain Minima's default font */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #000000;
+}
+
+/* Links */
+a {
+  color: #ccd5ae;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+/* Code blocks and inline code (optional tweaks) */
+code, pre {
+  background-color: #f9f5d7;
+  color: #000000;
+}
+
+/* Navigation Bar (if using default Minima layout) */
+.site-header {
+  background-color: #fefae0;
+  color: #000000;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.site-title, .site-nav a {
+  color: #000000;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #fefae0;
+  color: #000000;
+  border-top: 1px solid #dcdcdc;
+}
