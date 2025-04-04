@@ -1,7 +1,7 @@
 ---
 layout: post
 _title: On application of Tychonoff Theorem
-tags : Topology Combinatorics Graph-theory 
+tags : Topology Combinatorics Graph-theory  
 ---
 Found this application really cool! I think I might read more about Combinatorial topology.
 <div class="theorem">
