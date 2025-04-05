@@ -22,22 +22,22 @@ This brings us to two central goals in the design of such communication systems:
 **Error correction**: Reconstructing the original message despite some level of corruption.
 
 
-In many practical scenarios, the message that Alice wishes to send may be written in one alphabet—say, English—while the communication channel supports a different alphabet—such as binary strings. In such cases, we need a systematic way to convert messages from the source alphabet to the channel alphabet. This is typically done by encoding the message into \emph{blocks} of symbols over the channel alphabet.
+In many practical scenarios, the message that Alice wishes to send may be written in one alphabet—say, English—while the communication channel supports a different alphabet—such as binary strings. In such cases, we need a systematic way to convert messages from the source alphabet to the channel alphabet. This is typically done by encoding the message into blocks of symbols over the channel alphabet.
 
 For instance, when converting English text to binary, we might use ASCII encoding. Each character is represented as a fixed-length binary string, i.e., a block of bits. These binary blocks are then transmitted over the channel.
 
-Naturally, not every possible block of bits corresponds to a meaningful message. In general, only a subset of all possible strings is used for encoding valid messages. This leads us to the formal notion of a \emph{block code}.
+Naturally, not every possible block of bits corresponds to a meaningful message. In general, only a subset of all possible strings is used for encoding valid messages. This leads us to the formal notion of a block code.
 
 <div class="definition">
 Let $\Sigma$ be the fixed finite alphabet used by the communication channel. A block code $\mathcal{C}$ of length $n$ over $\Sigma$ is a subset of $\Sigma^n$:
 \[
 \mathcal{C} \subseteq \Sigma^n.
 \]
-Elements of $\mathcal{C}$ are called \emph{codewords}.
+Elements of $\mathcal{C}$ are called codewords.
 </div>
 
 <div class="definition">
-For any two strings $x$ and $y$ of the same length, the \emph{Hamming distance} between them is defined as the number of positions at which the corresponding symbols differ. That is,
+For any two strings $x$ and $y$ of the same length, the Hamming distance between them is defined as the number of positions at which the corresponding symbols differ. That is,
 \[
 d(x, y) = \left| \left\{ i \mid x_i \neq y_i \right\} \right|.
 \]
@@ -100,7 +100,7 @@ In a sense, the distance of a code quantifies how many changes are required to t
 
 Now, suppose Alice sends the codeword $x$, but due to noise in the channel, exactly those 5 positions are altered. Then Bob would receive $y$ instead of $x$, and since $y$ is also a valid codeword, he would completely misinterpret the message. 
 
-This highlights a key idea: \emph{to minimize the chance of such confusion, we want codes to have large distance}. A larger distance makes it less likely that noise will transform one valid codeword into another. This leads to an important observation.
+This highlights a key idea: to minimize the chance of such confusion, we want codes to have large distance. A larger distance makes it less likely that noise will transform one valid codeword into another. This leads to an important observation.
 
 <div class="claim">
  Let $d$ be the distance of a code $\mathcal{C}.$ Then the code is
@@ -190,7 +190,7 @@ This highlights two crucial properties we want from our codes in addition to lar
 
 # Example: Repetition Code
 
-Let us consider a simple code over the binary alphabet $\Sigma = \{0,1\}$. Define the \emph{repetition code} of length $n = 3$ as:
+Let us consider a simple code over the binary alphabet $\Sigma = \{0,1\}$. Define the repetition code of length $n = 3$ as:
 \[
 \mathcal{C} = \{000, 111\}
 \]
