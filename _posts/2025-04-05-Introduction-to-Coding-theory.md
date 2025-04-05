@@ -10,6 +10,8 @@ I have started learning coding theory and I thought of sharing the things I have
 * A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
 {:toc}
 
+# Introduction 
+
 Suppose two parties, Alice and Bob, wish to communicate over a channel that may be unreliable---that is, parts of the message may get corrupted or altered during transmission. To ensure robust communication, we want the recipient to be able to detect such corruption, and ideally, recover the original message even in the presence of errors.
 
 We assume that the channel allows the transmission of strings over a fixed finite alphabet. This alphabet could be a finite field (e.g., $\mathbb{F}_q$), binary symbols (bits), or even characters from the English alphabet.
@@ -45,24 +47,22 @@ Turns out Hamming distance is actually a distance!
 The Hamming distance defines a metric on \( \Sigma^n \).
 </div>
 
-<div class="proof">
-Let \( x, y, z \in \Sigma^n \). We verify the four properties of a metric:
 
-\begin{enumerate}
-    \item \textbf{Non-negativity:}  
+Let \( x, y, z \in \Sigma^n \). We verify the four properties of a metric:
+- **Non-negativity**: 
     By definition, \( d(x, y) \) counts the number of differing coordinates between \( x \) and \( y \). Since this is a count, \( d(x, y) \geq 0 \).
 
-    \item \textbf{Identity of indiscernibles:}  
+- **Identity of indiscernibles**:
     If \( x = y \), then all coordinates agree, so \( d(x, y) = 0 \).  
     Conversely, if \( d(x, y) = 0 \), then there are no positions \( i \) with \( x_i \neq y_i \), so \( x = y \).
 
-    \item \textbf{Symmetry:}  
+- **Symmetry**:  
     The number of positions where \( x_i \neq y_i \) is the same as the number where \( y_i \neq x_i \), so  
     \[
     d(x, y) = d(y, x).
     \]
 
-    \item \textbf{Triangle inequality:}  
+- **Triangle inequality**: 
     Let us consider each coordinate \( i \in \{1, 2, \dots, n\} \). At each position, define the indicator function:
     \[
     \delta(a, b) = 
@@ -83,10 +83,10 @@ Let \( x, y, z \in \Sigma^n \). We verify the four properties of a metric:
     \[
     d(x, z) \leq d(x, y) + d(y, z).
     \]
-\end{enumerate}
+
 
 Hence, all the properties of a metric are satisfied.
-</div>
+
 
 
 <div class="definition">
@@ -120,19 +120,19 @@ Thus, if \( r \in C \), no errors occurred; otherwise, if errors occurred, \( r 
 Hence, the code can detect up to \( d - 1 \) errors.
 </div>
 <div class="lemma">
- If the communication channel corrupts at most $t$ symbols during transmission, then any code with minimum distance at least $t + 1$ can \emph{detect} such errors. That is, Bob can recognize when the received message has been corrupted.
-\end{lemma}
+ If the communication channel corrupts at most $t$ symbols during transmission, then any code with minimum distance at least $t + 1$ can detect  such errors. That is, Bob can recognize when the received message has been corrupted.
+</div>
 
 <div class="theorem">[Error Correction Bound]
 Let \( C \subseteq \Sigma^n \) be a code with minimum Hamming distance \( d \). Then \( C \) can correct up to \( t \) errors if and only if \( d \geq 2t + 1 \).
 </div>
 
-<div class="proof">
+
 Assume a codeword \( x \in C \) is transmitted, and during transmission, at most \( t \) symbols are corrupted, resulting in a received word \( r \in \Sigma^n \). That is,
 \[
 d(x, r) \leq t.
 \]
-To decode correctly, the receiver must identify the original codeword \( x \) from \( r \). A standard decoding strategy is to choose the codeword \( y \in C \) that minimizes the Hamming distance \( d(r, y) \). For this strategy to work reliably, we want \( x \) to be the \emph{unique} codeword within distance \( t \) of \( r \).
+To decode correctly, the receiver must identify the original codeword \( x \) from \( r \). A standard decoding strategy is to choose the codeword \( y \in C \) that minimizes the Hamming distance \( d(r, y) \). For this strategy to work reliably, we want \( x \) to be the unique codeword within distance \( t \) of \( r \).
 
 
 **(Only if direction)**
@@ -162,15 +162,15 @@ d(x, y) \leq d(x, r) + d(r, y) \leq t + t = 2t,
 \]
 which contradicts the assumption that \( d(x, y) \geq d \geq 2t + 1 \). Therefore, such a \( y \) cannot exist.
 
-Hence, for every received word within distance \( t \) of a codeword \( x \), that codeword is uniquely closest, and the code can correct up to \( t \) errors.
+Hence, for every received word within distance \( t \) of a codeword \( x \), that codeword is uniquely closest, and the code can correct up to \( t \) errors. 
 
-</div>
+# Some bounds
 
 Suppose Alice sends a codeword $x$, and during transmission, it gets corrupted and Bob receives a word $y$. Given that at most $t$ symbols were altered in the channel, we want to show that Bob can still correctly recover the original message.
 
 Since Bob knows that at most $t$ errors could have occurred, he considers all codewords within Hamming distance $t$ of the received word $y$.\footnote{This is often visualized as placing a Hamming ball of radius $t$ around $y$.} Clearly, the original codeword $x$ lies within this ball, since $d(x, y) \leq t$.
 
-Now, if $x$ is the \emph{only} codeword within this ball, then Bob can unambiguously conclude that Alice must have sent $x$.
+Now, if $x$ is the only codeword within this ball, then Bob can unambiguously conclude that Alice must have sent $x$.
 
 We claim that this is indeed the case, provided the code has minimum distance at least $2t + 1$. Suppose, for contradiction, there exists another codeword $x' \neq x$ such that $d(x', y) \leq t$. Then by the triangle inequality:
 \[
@@ -181,14 +181,14 @@ which contradicts the assumption that the minimum distance between any two codew
 In other words, to move from one valid codeword to another through corruption, at least $2t + 1$ symbol changes are necessary. So if only $t$ symbols are corrupted, the received word is guaranteed to be closer (in Hamming distance) to the original codeword than to any other.
 
 
-However, in practice, it may not be efficient to check \emph{all} codewords within distance $t$ of $y$ to perform decoding. In fact, even determining whether a given string is a codeword may itself be computationally difficult.
+However, in practice, it may not be efficient to check all codewords within distance $t$ of $y$ to perform decoding. In fact, even determining whether a given string is a codeword may itself be computationally difficult.
 
 This highlights two crucial properties we want from our codes in addition to large minimum distance:
 - **Efficient codeword detection**: There should be an efficient way to verify whether a given string is a valid codeword.
 - **Efficient decoding**: Given a corrupted word (close to some codeword), we should be able to efficiently recover the original codeword.
 
 
-## Example: Repetition Code
+# Example: Repetition Code
 
 Let us consider a simple code over the binary alphabet $\Sigma = \{0,1\}$. Define the \emph{repetition code} of length $n = 3$ as:
 \[
@@ -196,7 +196,7 @@ Let us consider a simple code over the binary alphabet $\Sigma = \{0,1\}$. Defin
 \]
 This code encodes the bit $0$ as $000$ and $1$ as $111$. It is a $(3,1)$ block code: each message bit is encoded as a 3-bit codeword.
 
-## Distance of the Code
+# Distance of the Code
 
 The Hamming distance between the two codewords is:
 \[
@@ -208,7 +208,7 @@ Hence, the minimum distance of the code is $d = 3$. Therefore:
 - It can correct up to $\left\lfloor \frac{d-1}{2} \right\rfloor = 1$ error.
 
 
-## Error Correction Example 
+# Error Correction Example 
 
 Suppose Alice wants to send the bit $1$, so she transmits the codeword $111$.
 
