@@ -6,7 +6,7 @@ Hi, I am Sunaina Pati, a math student who loves number theory, algebra, and theo
 
 <img src="https://sunainapati.github.io/assets/IMG_20250515_185524.jpg" alt="Alt Text" width="500" height="500">
 
-|![alt text](https://sunainapati.github.io/assets/IMG_20250515_185524.jpg =100x100) |
+|<img src="https://sunainapati.github.io/assets/IMG_20250515_185524.jpg" alt="Alt Text" width="500" height="500">|
 |:--:| 
 | *Me at TIFR in Summer 2025* |
 
