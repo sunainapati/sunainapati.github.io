@@ -16,7 +16,7 @@ This site is my little archive of thought, a space where I share the things I do
 # My Coordinates in the Mathematical World
 An intro to my journey through math and theoretical CS — what I study, love, and work on.
 - I am currently reading about Class Field theory, Complexity Theory, and Coding Theory.
-- I was a [math Olympiad enthusiast](https://www.egmo.org/people/person2282/)  and I still love thinking about beautiful problems. I’ve written over 500 Olympiad problems (IMO, EGMO, RMM, INMO, etc.) on my old blog [Sunaina thinks absurd](https://sunainalovesmath.blogspot.com/) — which has over 100k views!
+- I was a [math Olympiad enthusiast](https://www.egmo.org/people/person2282/)  and I still love thinking about beautiful problems. I’ve written over 500 Olympiad problems (IMO, EGMO, RMM, INMO, etc.) on my old blog [Sunaina thinks absurd](https://sunainalovesmath.blogspot.com/), which has over 100k views!
 - I love teaching! I was a counsellor (Teaching Assistant) at [PROMYS India 2024](https://promys-india.org/) and a student there in 2023. I’ve also lectured at multiple Olympiad camps (EGMOTC, INMOTC, STEMS) and TAed a few undergraduate courses.
 
 # Courses I've TAed/ TAing
@@ -27,9 +27,9 @@ An intro to my journey through math and theoretical CS — what I study, love, a
 
 
 # The Sunaina Debug Log
-Here’s a little debug log of constants and quirks in my personality — some fun facts, some introspections, and some things that just bring me joy.
+Here’s a little debug log of constants and quirks in my personality.
 - My MBTI type is ENTJ-T, and the Sorting Hat put me in Ravenclaw (though a few friends insist I should’ve been in Slytherin). I am social, but I deeply value my quiet time — thinking, reading, and exploring things on my own.
-- I enjoy solving jigsaw puzzles (preferably not single-colored ones — those are more shape sorting than fun!) and nonograms.
+- I enjoy solving jigsaw puzzles, preferably not single-colored ones (those are more shape sorting than fun!) and nonograms.
 - I love doing digital art. Check out my artwork page if you want to see some of my artworks!
 
 
