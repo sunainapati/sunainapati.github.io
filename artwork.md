@@ -3,7 +3,7 @@ layout: page
 title: Artwork
 ---
 
-![alt text](https://sunainapati.github.io/assets/flower.jpg)
+| ![alt text](https://sunainapati.github.io/assets/flower.jpg) |
 |:--:| 
 | *My first digital artwork on my tablet* |
 
@@ -13,7 +13,7 @@ title: Artwork
 
 
 
-![alt text](https://sunainapati.github.io/assets/lady.jpg)
+| ![alt text](https://sunainapati.github.io/assets/lady.jpg)| 
 |:--:| 
 | *Tried to do some shading* |
 
@@ -21,6 +21,6 @@ title: Artwork
 
 
 
-![alt text](https://sunainapati.github.io/assets/soobin.jpg)
+| ![alt text](https://sunainapati.github.io/assets/soobin.jpg) |
 |:--:| 
 | *Soobin from TXT, a kpop group* |
