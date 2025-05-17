@@ -4,6 +4,9 @@ title: About
 ---
 Hi, I am Sunaina Pati, a math student who loves number theory, algebra, and theoretical computer science, and who sees math through a uniquely neurodivergent lens. I am currently in my second year of the BSc (Hons) Mathematics and Computer Science program at [Chennai Mathematical Institute](https://www.cmi.ac.in/). 
 
+![alt text](https://sunainapati.github.io/assets/IMG_20250515_185524.jpg)
+
+
 This site is my little archive of thought, a space where I share the things I do every day with everyone :) 
 
 # Contents
