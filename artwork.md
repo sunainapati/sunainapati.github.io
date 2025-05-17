@@ -3,9 +3,9 @@ layout: page
 title: Artwork
 ---
 
-| ![alt text](https://sunainapati.github.io/assets/flower.jpg) |
+| <img src="https://sunainapati.github.io/assets/flower.jpg" alt="Alt Text" width="500" height="700">|
 |:--:| 
-| *My first digital artwork on my tablet* |
+| *My first digital artwork on my tablet. Completed in: Feb 2025* |
 
  
 
@@ -13,14 +13,14 @@ title: Artwork
 
 
 
-| ![alt text](https://sunainapati.github.io/assets/lady.jpg)| 
+|<img src="https://sunainapati.github.io/assets/lady.jpg" alt="Alt Text" width="500" height="500">| 
 |:--:| 
-| *Tried to do some shading* |
+| *Tried to do some shading. Completed in: April 2025* |
 
 
 
 
 
-| ![alt text](https://sunainapati.github.io/assets/soobin.jpg) |
+|<img src="https://sunainapati.github.io/assets/soobin.jpg" alt="Alt Text" width="500" height="500">|
 |:--:| 
-| *Soobin from TXT, a kpop group* |
+| *Soobin from TXT, a kpop group. Completed in: May 2025* |
