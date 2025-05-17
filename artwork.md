@@ -3,7 +3,7 @@ layout: page
 title: Artwork
 ---
 
-| <img src="https://sunainapati.github.io/assets/flower.jpg" alt="Alt Text" width="500" height="750">|
+| <img src="https://sunainapati.github.io/assets/flower.jpg" alt="Alt Text" width="500" height="900">|
 |:--:| 
 | *My first digital artwork on my tablet. Completed in: Feb 2025* |
 
@@ -13,7 +13,7 @@ title: Artwork
 
 
 
-|<img src="https://sunainapati.github.io/assets/lady.jpg" alt="Alt Text" width="500" height="760">| 
+|<img src="https://sunainapati.github.io/assets/lady.jpg" alt="Alt Text" width="500" height="900">| 
 |:--:| 
 | *Tried to do some shading. Completed in: April 2025* |
 
