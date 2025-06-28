@@ -13,7 +13,7 @@ title: Artwork
 
 
 
-|<img src="https://sunainapati.github.io/assets/lady.jpg" alt="Alt Text" width="400" height="600">| 
+|<img src="https://sunainapati.github.io/assets/lady.jpg" alt="Alt Text" width="500" height="600">| 
 |:--:| 
 | *Tried to do some shading. Completed in: April 2025* |
 
