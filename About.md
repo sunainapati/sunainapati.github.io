@@ -31,6 +31,6 @@ Here’s a little debug log of constants and quirks in my personality.
 - My MBTI type is ENTJ-T, and the Sorting Hat put me in Ravenclaw (though a few friends insist I should’ve been in Slytherin). I am also diagnosed with ADHD.  
 - I enjoy solving jigsaw puzzles, preferably not single-colored ones (those are more shape sorting than fun!) and nonograms.
 - I love doing digital art. Check out my artwork page if you want to see some of my artworks!
-- I am learning Korean
+- I am learning Korean.
 
 
