@@ -29,13 +29,13 @@ An intro to my journey through math and theoretical CS
 
 
 # Random non-academic things which probably shouldn't be here
-- My MBTI type is ISTJ-T (currently, previously I was INTJ-T), and the Sorting Hat put me in Ravenclaw (though a few friends insist I should have been in Slytherin).  
+- My MBTI type is ISTJ-T (currently, previously I was INTJ-T), and the Sorting Hat put me in Ravenclaw (though a few friends insist I should have been in Slytherin).  And I also lie on the neurodivergent spectrum.
 - I enjoy solving jigsaw puzzles, preferably not single-colored ones (those are more shape sorting than fun!) and nonograms.
-- I love doing digital art. Check out my artwork page if you want to see some of my artworks! It takes me 3-4 months to complete one work ( that is because of the coursework and mandatory sleep I have to do)
-- I am very artistic in general. I love watercolours and oil painting. Recently, I have started Resin artwork. I also love visiting aesthetic cafés, restauraunts and art museums.
-- My favourite Genre is Slice of Life and Thriller. 
+- I love doing digital art. Check out my artwork page if you want to see some of my artworks! It takes me 3-4 months to complete one work ( that is because of the coursework and mandatory sleep I have to do).
+- I am very artistic in general. I love watercolours and oil painting. Recently, I have started Resin artwork. I also love visiting aesthetic cafés, restaurants, and art museums.
+- My favourite genres are Slice of Life and Thriller. 
 - I am learning Korean (very slowly though). 
 - I love listening to Metal, Prog and math rock (and sometimes K-pop). The bands I love are: Bad Omens, Pineapple Express, The Yellow Diary, Polyphia, aswekeepsearching and Plot in You. I started listening to K-pop in 2019 and have been keeping up with it since then.
-- Well, my [father](https://www.iitg.ac.in/pati/) linked my site in his, so I should do it as well :). He got me interested in Mathematics, so extremely grateful to him for that!
+- My [father](https://www.iitg.ac.in/pati/) linked my site in his, so I should do it as well :). He got me interested in Mathematics, so extremely grateful to him for that!
 
 
