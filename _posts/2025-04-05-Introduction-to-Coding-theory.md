@@ -12,7 +12,7 @@ I have started learning coding theory and I thought of sharing the things I have
 
 # Introduction 
 
-Suppose two parties, Alice and Bob, wish to communicate over a channel that may be unreliable---that is, parts of the message may get corrupted or altered during transmission. To ensure robust communication, we want the recipient to be able to detect such corruption, and ideally, recover the original message even in the presence of errors.
+Suppose two parties, Alice and Bob, wish to communicate over a channel that may be unreliable. That is, parts of the message may get corrupted or altered during transmission. To ensure robust communication, we want the recipient to be able to detect such corruption, and ideally, recover the original message even in the presence of errors.
 
 We assume that the channel allows the transmission of strings over a fixed finite alphabet. This alphabet could be a finite field (e.g., $\mathbb{F}_q$), binary symbols (bits), or even characters from the English alphabet.
 
@@ -22,7 +22,7 @@ This brings us to two central goals in the design of such communication systems:
 **Error correction**: Reconstructing the original message despite some level of corruption.
 
 
-In many practical scenarios, the message that Alice wishes to send may be written in one alphabet—say, English—while the communication channel supports a different alphabet—such as binary strings. In such cases, we need a systematic way to convert messages from the source alphabet to the channel alphabet. This is typically done by encoding the message into blocks of symbols over the channel alphabet.
+In many practical scenarios, the message that Alice wishes to send may be written in one alphabet,say, English, while the communication channel supports a different alphabet, such as binary strings. In such cases, we need a systematic way to convert messages from the source alphabet to the channel alphabet. This is typically done by encoding the message into blocks of symbols over the channel alphabet.
 
 For instance, when converting English text to binary, we might use ASCII encoding. Each character is represented as a fixed-length binary string, i.e., a block of bits. These binary blocks are then transmitted over the channel.
 
