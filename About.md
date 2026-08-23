@@ -2,9 +2,10 @@
 layout: page
 title: About
 ---
-Hi, I am Sunaina Pati. I am currently in my third year of the BSc (Hons) Mathematics and Computer Science program at [Chennai Mathematical Institute](https://www.cmi.ac.in/). 
+Hi, I am Sunaina Pati. I am currently in my fourth year of the BSc (Hons) Mathematics and Computer Science program at [Chennai Mathematical Institute](https://www.cmi.ac.in/). 
 
-This site is my little archive of thought, a space where I share the things I learn with everyone :)
+
+[CV](sunainapati.github.io/cv.pdf)
 
 # Contents
 {:.no_toc}
