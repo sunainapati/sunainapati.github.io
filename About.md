@@ -15,7 +15,7 @@ Hi, I am Sunaina Pati. I am currently in my fourth year of the BSc (Hons) Mathem
 
 
 # Courses I have TAed/ TAing
-- Graduate Mathematical Toolkit -Taught by Amit Kumar Sinhababu (2026 odd semester)
+- Graduate Mathematical Toolkit - Taught by Amit Kumar Sinhababu (2026 odd semester)
 - Discrete Mathematics - Taught by Professors V. Arvind (2026 even semester)
 - Algebra 3 - Taught by Professor Clare D'Cruz (2025 odd semester)
 - Algebra 2 - Taught by Professor Clare D'Cruz (2025 even semester)
