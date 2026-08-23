@@ -18,7 +18,7 @@ Hi, I am Sunaina Pati. I am currently in my fourth year of the BSc (Hons) Mathem
 An intro to my journey through math and theoretical CS
 - I am interested in Complexity Theory, Algebra and Computation, Psuedorandomness and Coding theory
 - I was a [math Olympiad enthusiast](https://www.egmo.org/people/person2282/),  and I still love thinking about Olympiad problems occasionally. I have discussed over 500 Olympiad problems (IMO, EGMO, RMM, INMO, etc.) on my old (and inactive) blog [Sunaina thinks absurd](https://sunainalovesmath.blogspot.com/), which has over 300k views. 
-- I love teaching! I was a counsellor (Teaching Assistant) at [PROMYS India 2024](https://promys-india.org/) and a student there in 2023(supported by Mehta Fellowship and Ramanujan Fellowship 2023). I have also lectured at multiple Olympiad camps (IMOTC, EGMOTC, INMOTC and STEMS) and TAed a few undergraduate courses.
+- I love teaching! I was a counsellor (Teaching Assistant) at [PROMYS India 2024](https://promys.org/) and a student there in 2023(supported by Mehta Fellowship and Ramanujan Fellowship 2023). I have also lectured at multiple Olympiad camps (IMOTC, EGMOTC, INMOTC and STEMS) and TAed a few undergraduate courses.
 
 
 # Courses I have TAed/ TAing
