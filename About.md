@@ -3,23 +3,16 @@ layout: page
 title: About
 ---
 Hi, I am Sunaina Pati. I am currently in my fourth year of the BSc (Hons) Mathematics and Computer Science program at [Chennai Mathematical Institute](https://www.cmi.ac.in/). 
-
-<img src="https://sunainapati.github.io/pfp.jpg" alt="Alt Text" width="70" height="70">
+<p align="center">
+<img src="https://sunainapati.github.io/pfp.jpg" alt="Alt Text" width="450" height="400">
+</p>
 
 [CV](https://sunainapati.github.io/cv.pdf)
 
-# Contents
-{:.no_toc}
-
-* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
-{:toc}
-
-
 # The (actual) about me
-An intro to my journey through math and theoretical CS
 - I am interested in Complexity Theory, Algebra and Computation, Psuedorandomness and Coding theory
 - I was a [math Olympiad enthusiast](https://www.egmo.org/people/person2282/),  and I still love thinking about Olympiad problems occasionally. I have discussed over 500 Olympiad problems (IMO, EGMO, RMM, INMO, etc.) on my old (and inactive) blog [Sunaina thinks absurd](https://sunainalovesmath.blogspot.com/), which has over 300k views. 
-- I love teaching! I was a counsellor (Teaching Assistant) at [PROMYS India 2024](https://promys.org/) and a student there in 2023(supported by Mehta Fellowship and Ramanujan Fellowship 2023). I have also lectured at multiple Olympiad camps (IMOTC, EGMOTC, INMOTC and STEMS) and TAed a few undergraduate courses.
+- I love teaching! I was a counsellor (Teaching Assistant) at [PROMYS India 2024](https://promys.org/) and a student there in 2023(supported by Mehta Fellowship and Ramanujan Fellowship 2023). I have also lectured at multiple Olympiad camps (IMOTC, EGMOTC, INMOTC and STEMS) and TAed a few undergraduate courses and a Graduate course.
 
 
 # Courses I have TAed/ TAing
