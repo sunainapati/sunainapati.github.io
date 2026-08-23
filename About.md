@@ -4,8 +4,9 @@ title: About
 ---
 Hi, I am Sunaina Pati. I am currently in my fourth year of the BSc (Hons) Mathematics and Computer Science program at [Chennai Mathematical Institute](https://www.cmi.ac.in/). 
 
+<img src="https://sunainapati.github.io/pfp.jpg" alt="Alt Text" width="70" height="70">
 
-[CV](sunainapati.github.io/cv.pdf)
+[CV](https://sunainapati.github.io/cv.pdf)
 
 # Contents
 {:.no_toc}
