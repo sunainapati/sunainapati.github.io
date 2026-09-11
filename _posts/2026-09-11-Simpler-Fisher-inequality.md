@@ -4,7 +4,7 @@ _title: Simpler Fisher Inequality
 tags : Coding-theory
 ---
 
-This problem is one of the few problems we discussed in the tutorial for Graduate Mathematical toolkit 2026 which I am TAing along with Avishek. The post is named "Simple Firsher inequality" because it is indeed a simpler Fisher's inequality, which states that 
+This problem is one of the few problems we discussed in the tutorial for Graduate Mathematical toolkit 2026 which I am TAing along with Avishek. The post is named "Simple Fisher inequality" because it is indeed a simpler Fisher's inequality, which states that 
 " Let $k$ be a positive integer. In a town with $n$ people, $m$ clubs have been formed. Every two clubs share exactly $k$ members. Prove that $m\le n$." The proof of this is essentially the same as the simpler version and we have left it as a nice cute exercise :) 
 
 <div class="problem">
@@ -18,10 +18,12 @@ In our solution, our set up is going to be the same. Let students be $s_1,\dots,
 For each student $s_i$, we will associate a $k$ lenght tuple, $v_i$ such that $v_{ij}=1\iff s_i\in G_j$. And similarly, for each group $G_j$ define $w_j$ to be vector of $n$ lenght with $w_{ji}=1\iff i\in G_j$. So, we have $\langle w_j,wj\rangle\ge 2$, $\langle v_{i'},v_j\rangle =1$ and $\langle w_{j'},w_j\rangle \le 1$. Now, the proof of Solution, relies on one more simple observation. That is, $\langle v_i,v_i\rangle \ge 2$. That is because, if it was $1$. Then student $i$ is only in one group, but then all pair involving student $i$ must be in that group. Hence, all students are in this group. So only one group is present. But $k>1$.
 
 <div class="proof">
-It follows closely to what Yufei's solution is. We claim that $v_1,\dots,v_n$ are linearly independt in $\Bbb R^k$. Suppose $\sum_i c_i v_i = 0$ in $\mathbb{R}^k$. Then
+It follows closely to what Yufei's solution is. We claim that $v_1,\dots,v_n$ are linearly independent in $\Bbb R^k$. Suppose $\sum_i c_i v_i = 0$ in $\mathbb{R}^k$. Then
 $$0 = \langle \sum_i c_iv_i,\sum_i c_iv_i\rangle = \sum_i c_i^2\langle v_i,v_i\rangle + \sum_{i\ne i'} c_ic_{i'}\langle v_i,v_{i'}\rangle \ge \sum_i c_i^2 (\langle v_i,v_i\rangle) + \sum_{i\ne i'}c_ic_{i'}.$$
 So $$0 = \sum_i c_i^2(\langle v_i,v_i\rangle-1) + \sum_i c_i^2 + \sum_{i\ne i'}c_ic_{i'} = \sum_i c_i^2(\langle v_i,v_i\rangle-1) + (\sum_i c_i)^2 $$
 Note that $c_i^2((\langle v_i,v_i\rangle-1)\ge 0$ and the last term is $\ge0$. So  $c_i^2(\langle v_i,v_i\rangle-1)=0$ for all $i$. But $\langle v_i,v_i\rangle-1\ge 0\implies c_i=0$ for all $i$. So $v_1,\dots,v_n$ are linearly independent vectors over $\mathbb{R}^k$. Hence $n\le k$. So done.
 </div>
-
-Now, go try to prove the Fisher's inequality :P
+<div class="remark">
+The proof uses only vectors $v_i$'s and not $w_j's$. I would like to see some solutions using the $w$ vectors. However, the method we used above is not going to work. Showing linear independence would give $k\le n$ which is not what we want. Any other ideas?
+</div>
+Now, go try to prove fisher's inequality :P
