@@ -1,7 +1,7 @@
 ---
 layout: post
 _title: Simpler Fisher Inequality
-tags : Coding-theory
+tags : Linear-algebra Combinatorics
 ---
 
 This problem is one of the few problems we discussed in the tutorial for Graduate Mathematical toolkit 2026 which I am TAing along with Avishek. The post is named "Simple Fisher inequality" because it is indeed a simpler Fisher's inequality, which states that 
