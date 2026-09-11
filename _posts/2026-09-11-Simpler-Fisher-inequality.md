@@ -20,7 +20,7 @@ For each student $s_i$, we will associate a $k$ lenght tuple, $v_i$ such that $v
 <div class="proof">
 It follows closely to what Yufei's solution is. We claim that $v_1,\dots,v_n$ are linearly independt in $\Bbb R^k$. Suppose $\sum_i c_i v_i = 0$ in $\mathbb{R}^k$. Then
 $$0 = \langle \sum_i c_iv_i,\sum_i c_iv_i\rangle = \sum_i c_i^2\langle v_i,v_i\rangle + \sum_{i\ne i'} c_ic_{i'}\langle v_i,v_{i'}\rangle \ge \sum_i c_i^2 (\langle v_i,v_i\rangle) + \sum_{i\ne i'}c_ic_{i'}.$$
-So $$0 = \sum_i c_i^2(\langle v_i,v_i\rangle-1) + \sum_i c_i^2(\sum_i c_i)^2\implies \sum_i $$
+So $$0 = \sum_i c_i^2(\langle v_i,v_i\rangle-1) + \sum_i c_i^2 + \sum_{i\ne i'}c_ic_{i'} = \sum_i c_i^2(\langle v_i,v_i\rangle-1) + (\sum_i c_i)^2 $$
 Note that $c_i^2((\langle v_i,v_i\rangle-1)\ge 0$ and the last term is $\ge0$. So  $c_i^2(\langle v_i,v_i\rangle-1)=0$ for all $i$. But $\langle v_i,v_i\rangle-1\ge 0\implies c_i=0$ for all $i$. So $v_1,\dots,v_n$ are linearly independent vectors over $\mathbb{R}^k$. Hence $n\le k$. So done.
 </div>
 
