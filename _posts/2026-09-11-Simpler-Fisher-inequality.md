@@ -4,7 +4,7 @@ _title: Simpler Fisher Inequality
 tags : Coding-theory
 ---
 
-This problem is one of the few problems we discussed in the tutorial for Graduate Mathematical toolkit 2026 which I am TAing along with Avishek. The post is named "Simple Firsher inequality" because it is indeed a simpler Fisher's ienquality, which states that 
+This problem is one of the few problems we discussed in the tutorial for Graduate Mathematical toolkit 2026 which I am TAing along with Avishek. The post is named "Simple Firsher inequality" because it is indeed a simpler Fisher's inequality, which states that 
 " Let $k$ be a positive integer. In a town with $n$ people, $m$ clubs have been formed. Every two clubs share exactly $k$ members. Prove that $m\le n$." The proof of this is essentially the same as the simpler version and we have left it as a nice cute exercise :) 
 
 <div class="problem">
@@ -23,3 +23,5 @@ $$0 = \langle \sum_i c_iv_i,\sum_i c_iv_i\rangle = \sum_i c_i^2\langle v_i,v_i\r
 So $$0 = \sum_i c_i^2(\langle v_i,v_i\rangle-1) + \sum_i c_i^2(\sum_i c_i)^2\implies \sum_i $$
 Note that $c_i^2((\langle v_i,v_i\rangle-1)\ge 0$ and the last term is $\ge0$. So  $c_i^2(\langle v_i,v_i\rangle-1)=0$ for all $i$. But $\langle v_i,v_i\rangle-1\ge 0\implies c_i=0$ for all $i$. So $v_1,\dots,v_n$ are linearly independent vectors over $\mathbb{R}^k$. Hence $n\le k$. So done.
 </div>
+
+Now, go try to prove the Fisher's inequality :P
